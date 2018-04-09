@@ -1,0 +1,140 @@
+[
+
+  // Items
+
+  // Timer Checks
+
+  {
+    "id": 0,
+    "title": "Timer Checks",
+    "value": 6,
+    "stats": {
+      "power": 1,
+      "defence": 4,
+      "vitality": 2
+    },
+    "description": "These things are cute and have nothing to do with anything!!!",
+    "stackable": true,
+    "rarity": 2,
+    "slug": "timer_checks"
+  },
+
+  // The Great Stick
+
+  {
+    "id": 1,
+    "title": "The Great Stick",
+    "value": 543,
+    "stats": {
+      "power": 56,
+      "defence": 2,
+      "vitality": 54
+    },
+    "description": "It's a stick that's pretty great",
+    "stackable": true,
+    "rarity": 6,
+    "slug": "the_great_stick"
+  },
+
+  // Blaze Sword
+
+  {
+    "id": 2,
+    "title": "Blaze Sword",
+    "value": 99999,
+    "stats": {
+      "power": 4350,
+      "defence": 7000,
+      "vitality": 2500
+    },
+    "description": "It's a gigantic sword for no reason. Don't you just love games!!!",
+    "stackable": false,
+    "rarity": 100,
+    "slug": "blaze_sword"
+  },
+
+  // Assualt Rifle
+
+  {
+    "id": 3,
+    "title": "Assualt Rifle",
+    "value": 513,
+    "stats": {
+      "power": 1000,
+      "defence": 1,
+      "vitality": 1
+    },
+    "description": "Generic assualt rifle! Check!",
+    "stackable": false,
+    "rarity": 25,
+    "slug": "assualt_rifle"
+  },
+
+  // Hand Gun
+
+  {
+    "id": 4,
+    "title": "Hand Gun",
+    "value": 76,
+    "stats": {
+      "power": 1200,
+      "defence": 1,
+      "vitality": 1
+    },
+    "description": "Generic hand gun! Check!",
+    "stackable": false,
+    "rarity": 7,
+    "slug": "hand_gun"
+  },
+
+  // Shot Gun
+
+  {
+    "id": 5,
+    "title": "Shot Gun",
+    "value": 1575,
+    "stats": {
+      "power": 2000,
+      "defence": 1,
+      "vitality": 1
+    },
+    "description": "Generic shot gun! Check!",
+    "stackable": false,
+    "rarity": 25,
+    "slug": "shot_gun"
+  },
+
+  // Small Turret
+
+  {
+    "id": 6,
+    "title": "Small Turret",
+    "value": 75,
+    "stats": {
+      "power": 200,
+      "defence": 125,
+      "vitality": 125
+    },
+    "description": "Tiny turret that does not get the job done alone!!",
+    "stackable": true,
+    "rarity": 1,
+    "slug": "small_turret"
+  },
+
+  // Mini Gun
+
+  {
+    "id": 7,
+    "title": "Mini Gun",
+    "value": 575,
+    "stats": {
+      "power": 750,
+      "defence": 1000,
+      "vitality": 1000
+    },
+    "description": "Lock and Load baby!!!",
+    "stackable": true,
+    "rarity": 25,
+    "slug": "mini_gun"
+  }
+]

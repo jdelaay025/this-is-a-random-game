@@ -1,0 +1,1253 @@
+fileFormatVersion: 2
+guid: 13b582b2e33ae3547ae9aedc1424f502
+timeCreated: 1479692418
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Abdomen
+    100002: Armature
+    100004: Base
+    100006: Chest and Back
+    100008: Clavical.L
+    100010: Clavical.R
+    100012: //RootNode
+    100014: Enemy Boss
+    100016: Eye Control
+    100018: Eye Control_end
+    100020: Eye Inner.L
+    100022: Eye Inner.R
+    100024: Eyebrows
+    100026: Femur.L
+    100028: Femur.R
+    100030: Foot CTRL.L
+    100032: Foot CTRL.R
+    100034: Foot ik.L
+    100036: Foot ik.L_end
+    100038: Foot ik.R
+    100040: Foot ik.R_end
+    100042: Foot Roll CTRL.L
+    100044: Foot Roll CTRL.L_end
+    100046: Foot Roll CTRL.R
+    100048: Foot Roll CTRL.R_end
+    100050: Foot.L
+    100052: Foot.R
+    100054: Forearm.L
+    100056: Forearm.R
+    100058: Hand.L
+    100060: Hand.L_end
+    100062: Hand.R
+    100064: Hand.R_end
+    100066: Head
+    100068: Head_end
+    100070: Heel Roll.L
+    100072: Heel Roll.R
+    100074: Hips CTRL
+    100076: Knee CTRL.L
+    100078: Knee CTRL.L_end
+    100080: Knee CTRL.R
+    100082: Knee CTRL.R_end
+    100084: Master Control
+    100086: Neck
+    100088: Shin.L
+    100090: Shin.R
+    100092: Toe Roll.L
+    100094: Toe Roll.R
+    100096: Toes.L
+    100098: Toes.L_end
+    100100: Toes.R
+    100102: Toes.R_end
+    100104: Upper Arm.L
+    100106: Upper Arm.R
+    400000: Abdomen
+    400002: Armature
+    400004: Base
+    400006: Chest and Back
+    400008: Clavical.L
+    400010: Clavical.R
+    400012: //RootNode
+    400014: Enemy Boss
+    400016: Eye Control
+    400018: Eye Control_end
+    400020: Eye Inner.L
+    400022: Eye Inner.R
+    400024: Eyebrows
+    400026: Femur.L
+    400028: Femur.R
+    400030: Foot CTRL.L
+    400032: Foot CTRL.R
+    400034: Foot ik.L
+    400036: Foot ik.L_end
+    400038: Foot ik.R
+    400040: Foot ik.R_end
+    400042: Foot Roll CTRL.L
+    400044: Foot Roll CTRL.L_end
+    400046: Foot Roll CTRL.R
+    400048: Foot Roll CTRL.R_end
+    400050: Foot.L
+    400052: Foot.R
+    400054: Forearm.L
+    400056: Forearm.R
+    400058: Hand.L
+    400060: Hand.L_end
+    400062: Hand.R
+    400064: Hand.R_end
+    400066: Head
+    400068: Head_end
+    400070: Heel Roll.L
+    400072: Heel Roll.R
+    400074: Hips CTRL
+    400076: Knee CTRL.L
+    400078: Knee CTRL.L_end
+    400080: Knee CTRL.R
+    400082: Knee CTRL.R_end
+    400084: Master Control
+    400086: Neck
+    400088: Shin.L
+    400090: Shin.R
+    400092: Toe Roll.L
+    400094: Toe Roll.R
+    400096: Toes.L
+    400098: Toes.L_end
+    400100: Toes.R
+    400102: Toes.R_end
+    400104: Upper Arm.L
+    400106: Upper Arm.R
+    2300000: Eye Inner.L
+    2300002: Eye Inner.R
+    2300004: Eyebrows
+    3300000: Eye Inner.L
+    3300002: Eye Inner.R
+    3300004: Eyebrows
+    4300000: Eyebrows
+    4300002: Eye Inner.L
+    4300004: Eye Inner.R
+    4300006: Enemy Boss
+    7400000: 'New Idle '
+    7400002: Sword Emerge Lift
+    7400004: Sword Emerge Air loop
+    7400006: Sword Emerge Descent
+    9500000: //RootNode
+    13700000: Enemy Boss
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Armature|ArmatureAction' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'Upper Arm.L' has translation animation
+      that will be discarded.\n\t'Upper Arm.R' has translation animation that will
+      be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: 'New Idle '
+      takeName: Armature|ArmatureAction
+      firstFrame: 1860
+      lastFrame: 1900
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sword Emerge Lift
+      takeName: Armature|ArmatureAction
+      firstFrame: 1910
+      lastFrame: 1924
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sword Emerge Air loop
+      takeName: Armature|ArmatureAction
+      firstFrame: 1924
+      lastFrame: 1934
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sword Emerge Descent
+      takeName: Armature|ArmatureAction
+      firstFrame: 1934
+      lastFrame: 1955
+      wrapMode: 0
+      orientationOffsetY: 3.68
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Base
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Femur.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Femur.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shin.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shin.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Abdomen
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest and Back
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clavical.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clavical.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper Arm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper Arm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Forearm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Forearm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toes.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toes.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Eye Inner.L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Eye Inner.R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Eyebrows
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: DannyMoveable21(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Armature
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+      transformModified: 1
+    - name: Master Control
+      position: {x: -0, y: 0.0024251356, z: 0.0005774951}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+      transformModified: 1
+    - name: Foot CTRL.L
+      position: {x: -0.0049271006, y: 0.005545725, z: -0.0005748656}
+      rotation: {x: 0.7071068, y: -0.000000021073422, z: 0.7071068, w: -0.000000021073422}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+      transformModified: 1
+    - name: Heel Roll.L
+      position: {x: -0.003, y: 0.00550387, z: 2.622684e-10}
+      rotation: {x: 0.49999985, y: 0.50000006, z: -0.5, w: 0.5000002}
+      scale: {x: 0.9999995, y: 0.9999997, z: 0.9999998}
+      transformModified: 1
+    - name: Toe Roll.L
+      position: {x: -2.8960428e-10, y: 0.011, z: 2.2087647e-10}
+      rotation: {x: -0.00000014751399, y: 2.5129646e-16, z: -1, w: 0.000000025048372}
+      scale: {x: 1, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: Foot ik.L
+      position: {x: -9.535945e-11, y: 0.008, z: 0.0055038715}
+      rotation: {x: 0.95494926, y: -0.000000010582723, z: -0.000000018748368, w: -0.29676926}
+      scale: {x: 1, y: 1, z: 1.0000006}
+      transformModified: 1
+    - name: Foot ik.L_end
+      position: {x: -0, y: 0.009710438, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Foot Roll CTRL.L
+      position: {x: 8.26528e-11, y: 0, z: 1.3113421e-10}
+      rotation: {x: -0.50000006, y: 0.49999994, z: -0.50000006, w: -0.49999994}
+      scale: {x: 0.9999997, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: Foot Roll CTRL.L_end
+      position: {x: -0, y: 0.0069999998, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Knee CTRL.L
+      position: {x: 0.02006908, y: -0.015377902, z: -0.0000000013421595}
+      rotation: {x: -0.7071068, y: -0.00000001745779, z: -0.7071068, w: 0.00000001745779}
+      scale: {x: 0.99999946, y: 0.9999995, z: 0.9999995}
+      transformModified: 1
+    - name: Knee CTRL.L_end
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Foot CTRL.R
+      position: {x: 0.0049271006, y: 0.005545725, z: -0.0005748656}
+      rotation: {x: 0.7071068, y: -0.000000021073422, z: 0.7071068, w: -0.000000021073422}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+      transformModified: 1
+    - name: Heel Roll.R
+      position: {x: -0.003, y: 0.00550387, z: 2.622684e-10}
+      rotation: {x: 0.49999985, y: 0.50000006, z: -0.5, w: 0.5000002}
+      scale: {x: 0.9999995, y: 0.9999997, z: 0.9999998}
+      transformModified: 1
+    - name: Toe Roll.R
+      position: {x: -2.8960428e-10, y: 0.011, z: 2.0132276e-10}
+      rotation: {x: -0.00000014751399, y: 2.5129646e-16, z: -1, w: 0.000000025048372}
+      scale: {x: 1, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: Foot ik.R
+      position: {x: -9.535945e-11, y: 0.008, z: 0.0055038715}
+      rotation: {x: 0.95494926, y: -0.000000010582723, z: -0.000000018748368, w: -0.29676926}
+      scale: {x: 1, y: 1, z: 1.0000006}
+      transformModified: 1
+    - name: Foot ik.R_end
+      position: {x: -0, y: 0.009710438, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Foot Roll CTRL.R
+      position: {x: -8.26528e-11, y: 0, z: 1.3113421e-10}
+      rotation: {x: -0.50000006, y: 0.49999994, z: -0.50000006, w: -0.49999994}
+      scale: {x: 0.9999997, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: Foot Roll CTRL.R_end
+      position: {x: -0, y: 0.0069999998, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Knee CTRL.R
+      position: {x: 0.020069914, y: -0.015377902, z: -0.0000000013421959}
+      rotation: {x: -0.7071068, y: -0.00000001745779, z: -0.7071068, w: 0.00000001745779}
+      scale: {x: 0.99999946, y: 0.9999995, z: 0.9999995}
+      transformModified: 1
+    - name: Knee CTRL.R_end
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hips CTRL
+      position: {x: 7.5497897e-10, y: 0.04321841, z: 0.000000001490116}
+      rotation: {x: 0.00000015099579, y: -0.00000002980234, z: 1, w: -4.497337e-14}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+      transformModified: 1
+    - name: Base
+      position: {x: -7.549784e-10, y: 0.01, z: 0.0000000013411033}
+      rotation: {x: -0.00000015099579, y: -0.000000029802365, z: -1, w: 4.3578714e-14}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: Abdomen
+      position: {x: -1.04489984e-17, y: 0.01, z: -3.994027e-15}
+      rotation: {x: -0.000000059604602, y: 2.7934111e-21, z: 1.4484399e-15, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+      transformModified: 1
+    - name: Chest and Back
+      position: {x: -1.33112915e-17, y: 0.006999998, z: -4.6324054e-15}
+      rotation: {x: 0.000000029802365, y: -4.3622614e-21, z: 2.7761028e-29, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: Neck
+      position: {x: 3.6383655e-17, y: 0.012587671, z: -5.780376e-15}
+      rotation: {x: 0.000000014901204, y: -0.00000011920929, z: -1.7763501e-15, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+      transformModified: 1
+    - name: Head
+      position: {x: -1.7750558e-17, y: 0.005, z: -4.8179703e-11}
+      rotation: {x: -0.000000059604602, y: 0.00000011920929, z: -4.264667e-15, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: Eye Inner.L
+      position: {x: -0.0015644017, y: 0.003939919, z: 0.0024868404}
+      rotation: {x: -0.77851623, y: -0.005892341, z: -0.004789809, w: 0.62757856}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999995}
+      transformModified: 1
+    - name: Eye Inner.R
+      position: {x: 0.0015643986, y: 0.003939919, z: 0.0024868404}
+      rotation: {x: -0.77850795, y: -0.0068750684, z: -0.005588653, w: 0.6275722}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+      transformModified: 1
+    - name: Eyebrows
+      position: {x: -4.4703483e-10, y: 0.0053863763, z: 0.0030993675}
+      rotation: {x: -0.7071068, y: 0.000000061591486, z: 0.00000008272643, w: 0.7071067}
+      scale: {x: 1, y: 0.99999976, z: 1}
+      transformModified: 1
+    - name: Head_end
+      position: {x: -0, y: 0.009000001, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Clavical.L
+      position: {x: -0.0020378001, y: 0.012484526, z: 0.0036028086}
+      rotation: {x: -0.16775425, y: -0.12766856, z: 0.70794827, w: 0.6740687}
+      scale: {x: 0.99999976, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: Upper Arm.L
+      position: {x: -0.0010423618, y: 0.008330188, z: 0.0010907841}
+      rotation: {x: 0.16899413, y: -0.026495788, z: -0.02789394, w: 0.98486596}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: Forearm.L
+      position: {x: 0.0000000049848907, y: 0.016261352, z: 2.2441554e-10}
+      rotation: {x: 0.057275932, y: 0.70470613, z: 0.058159444, w: 0.7047881}
+      scale: {x: 1, y: 1.0000001, z: 0.9999997}
+      transformModified: 1
+    - name: Hand.L
+      position: {x: 2.108549e-10, y: 0.016031217, z: 0.000000009875904}
+      rotation: {x: 0, y: 0.0000000745058, z: 0.031204354, w: -0.99951303}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+      transformModified: 1
+    - name: Hand.L_end
+      position: {x: -0, y: 0.009000001, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Clavical.R
+      position: {x: 0.0020378001, y: 0.012484526, z: 0.0036028086}
+      rotation: {x: 0.7079482, y: 0.6740688, z: -0.16775434, w: -0.12766826}
+      scale: {x: 0.9999997, y: 0.9999997, z: 1}
+      transformModified: 1
+    - name: Upper Arm.R
+      position: {x: -0.001042368, y: 0.008330187, z: -0.0010907837}
+      rotation: {x: -0.16899393, y: 0.026495662, z: -0.027893957, w: 0.984866}
+      scale: {x: 0.9999998, y: 0.99999964, z: 0.99999964}
+      transformModified: 1
+    - name: Forearm.R
+      position: {x: -0.0000000010749608, y: 0.016261356, z: 1.4453462e-10}
+      rotation: {x: -0.05815926, y: 0.70478827, z: -0.057276282, w: 0.70470583}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+      transformModified: 1
+    - name: Hand.R
+      position: {x: 1.3942511e-10, y: 0.016031217, z: 0.000000003024114}
+      rotation: {x: 0.00000026822087, y: -0.0000000745058, z: -0.031204354, w: -0.99951303}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hand.R_end
+      position: {x: -0, y: 0.009000001, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Femur.L
+      position: {x: -0.004927099, y: 0.0022040987, z: -0.0005748631}
+      rotation: {x: 0.00000064828885, y: 0.10183976, z: 0.9948008, w: 0.00000011695137}
+      scale: {x: 1, y: 0.99999976, z: 0.99999404}
+      transformModified: 1
+    - name: Shin.L
+      position: {x: -3.1506087e-10, y: 0.014805994, z: -8.7791724e-10}
+      rotation: {x: 0.0000001805335, y: -0.98039335, z: 0.1970504, w: 0.0000005415026}
+      scale: {x: 1, y: 1.0000002, z: 0.9999999}
+      transformModified: 1
+    - name: Foot.L
+      position: {x: 1.4652182e-10, y: 0.0156678, z: -4.3264264e-10}
+      rotation: {x: -0.5483771, y: 0.0000001029527, z: 0.00000006322946, w: 0.8362312}
+      scale: {x: 1, y: 0.9999989, z: 1.0000017}
+      transformModified: 1
+    - name: Toes.L
+      position: {x: -1.00001764e-10, y: 0.009710437, z: -1.8705165e-10}
+      rotation: {x: 0.00000002240549, y: 0.95494914, z: -0.29676968, w: -0.00000007209664}
+      scale: {x: 1, y: 1.0000031, z: 0.9999972}
+      transformModified: 1
+    - name: Toes.L_end
+      position: {x: -0, y: 0.006, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Femur.R
+      position: {x: 0.004927099, y: 0.0022040987, z: -0.0005748631}
+      rotation: {x: 0.00000068781674, y: 0.10183976, z: 0.9948008, w: 0.000000019828525}
+      scale: {x: 1, y: 0.99999976, z: 0.99999404}
+      transformModified: 1
+    - name: Shin.R
+      position: {x: -5.987227e-11, y: 0.0148059875, z: 2.2470556e-10}
+      rotation: {x: 0.00000013110078, y: -0.98039335, z: 0.1970504, w: 0.00000054150263}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+      transformModified: 1
+    - name: Foot.R
+      position: {x: -4.600737e-11, y: 0.0156678, z: -2.780274e-10}
+      rotation: {x: -0.5483771, y: 0.000000096414595, z: 0.00000006751688, w: 0.8362312}
+      scale: {x: 1, y: 0.9999989, z: 1.0000019}
+      transformModified: 1
+    - name: Toes.R
+      position: {x: -1.00001854e-10, y: 0.009710437, z: 7.8711256e-13}
+      rotation: {x: -0.00000002240549, y: 0.95494914, z: -0.29676968, w: 0.000000072096626}
+      scale: {x: 1, y: 1.000003, z: 0.9999968}
+      transformModified: 1
+    - name: Toes.R_end
+      position: {x: -0, y: 0.006, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Eye Control
+      position: {x: 0.0015202613, y: 0.07172487, z: 0.044096798}
+      rotation: {x: -0.000000005619114, y: 0.000000005619114, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+      transformModified: 1
+    - name: Eye Control_end
+      position: {x: -0, y: 0.003040518, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Enemy Boss
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

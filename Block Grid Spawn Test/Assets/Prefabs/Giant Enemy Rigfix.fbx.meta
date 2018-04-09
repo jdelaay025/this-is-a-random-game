@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: eed4d9d463e816740a6436161fbeac30
+timeCreated: 1478569729
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Camera
+    100004: Chest
+    100006: Dragon
+    100008: //RootNode
+    100010: Head
+    100012: Hemi
+    100014: Jaw CTRL
+    100016: Jaw CTRL_end
+    100018: Left Arm
+    100020: Left Bottom Jaw
+    100022: Left Bottom Lip
+    100024: Left Bottom Lip_end
+    100026: Left Clavical
+    100028: Left Femur
+    100030: Left Foot
+    100032: Left Foot CTRL
+    100034: Left Foot Roll CTRL
+    100036: Left Foot Roll CTRL_end
+    100038: Left FootIK
+    100040: Left FootIK_end
+    100042: Left Hand
+    100044: Left Hand_end
+    100046: Left Heel Roll
+    100048: Left Shin
+    100050: Left Shoulder
+    100052: Left Toe Roll
+    100054: Left Toes
+    100056: Left Toes_end
+    100058: Left Upper Jaw
+    100060: Left Upper Lip
+    100062: Left Upper Lip_end
+    100064: Left Wing Beginning Bone
+    100066: Left Wing C1
+    100068: Left Wing C2
+    100070: Left Wing C3
+    100072: Left Wing C4
+    100074: Left Wing C5
+    100076: Left Wing Nail
+    100078: Left Wing Nail_end
+    100080: Neck
+    100082: Right Arm
+    100084: Right Bottom Jaw
+    100086: Right Bottom Lip
+    100088: Right Bottom Lip_end
+    100090: Right Clavical
+    100092: Right Femur
+    100094: Right Foot
+    100096: Right Foot CTRL
+    100098: Right Foot Roll CTRL
+    100100: Right Foot Roll CTRL_end
+    100102: Right FootIK
+    100104: Right FootIK_end
+    100106: Right Hand
+    100108: Right Hand_end
+    100110: Right Heel Roll
+    100112: Right Shin
+    100114: Right Shoulder
+    100116: Right Toe Roll
+    100118: Right Toes
+    100120: Right Toes_end
+    100122: Right Upper Jaw
+    100124: Right Upper Lip
+    100126: Right Upper Lip_end
+    100128: Right Wing Beginning Bone
+    100130: Right Wing C1
+    100132: Right Wing C2
+    100134: Right Wing C3
+    100136: Right Wing C4
+    100138: Right Wing C5
+    100140: Right Wing Nail
+    100142: Right Wing Nail_end
+    100144: Root Bone
+    100146: 'Spine '
+    100148: Tail Beginning Bone
+    100150: Tail End Bone
+    100152: Tail End Bone_end
+    100154: Tail Mid Bone
+    400000: Armature
+    400002: Camera
+    400004: Chest
+    400006: Dragon
+    400008: //RootNode
+    400010: Head
+    400012: Hemi
+    400014: Jaw CTRL
+    400016: Jaw CTRL_end
+    400018: Left Arm
+    400020: Left Bottom Jaw
+    400022: Left Bottom Lip
+    400024: Left Bottom Lip_end
+    400026: Left Clavical
+    400028: Left Femur
+    400030: Left Foot
+    400032: Left Foot CTRL
+    400034: Left Foot Roll CTRL
+    400036: Left Foot Roll CTRL_end
+    400038: Left FootIK
+    400040: Left FootIK_end
+    400042: Left Hand
+    400044: Left Hand_end
+    400046: Left Heel Roll
+    400048: Left Shin
+    400050: Left Shoulder
+    400052: Left Toe Roll
+    400054: Left Toes
+    400056: Left Toes_end
+    400058: Left Upper Jaw
+    400060: Left Upper Lip
+    400062: Left Upper Lip_end
+    400064: Left Wing Beginning Bone
+    400066: Left Wing C1
+    400068: Left Wing C2
+    400070: Left Wing C3
+    400072: Left Wing C4
+    400074: Left Wing C5
+    400076: Left Wing Nail
+    400078: Left Wing Nail_end
+    400080: Neck
+    400082: Right Arm
+    400084: Right Bottom Jaw
+    400086: Right Bottom Lip
+    400088: Right Bottom Lip_end
+    400090: Right Clavical
+    400092: Right Femur
+    400094: Right Foot
+    400096: Right Foot CTRL
+    400098: Right Foot Roll CTRL
+    400100: Right Foot Roll CTRL_end
+    400102: Right FootIK
+    400104: Right FootIK_end
+    400106: Right Hand
+    400108: Right Hand_end
+    400110: Right Heel Roll
+    400112: Right Shin
+    400114: Right Shoulder
+    400116: Right Toe Roll
+    400118: Right Toes
+    400120: Right Toes_end
+    400122: Right Upper Jaw
+    400124: Right Upper Lip
+    400126: Right Upper Lip_end
+    400128: Right Wing Beginning Bone
+    400130: Right Wing C1
+    400132: Right Wing C2
+    400134: Right Wing C3
+    400136: Right Wing C4
+    400138: Right Wing C5
+    400140: Right Wing Nail
+    400142: Right Wing Nail_end
+    400144: Root Bone
+    400146: 'Spine '
+    400148: Tail Beginning Bone
+    400150: Tail End Bone
+    400152: Tail End Bone_end
+    400154: Tail Mid Bone
+    4300000: Dragon
+    7400000: Armature|ArmatureAction
+    9500000: //RootNode
+    13700000: Dragon
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

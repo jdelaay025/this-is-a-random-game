@@ -1,0 +1,3676 @@
+fileFormatVersion: 2
+guid: 64bea87722d3e9e4cacac00eb1ac67c5
+timeCreated: 1475721360
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Abdomen
+    100002: Armature
+    100004: Base
+    100006: Chest and Back
+    100008: Clavical.L
+    100010: Clavical.R
+    100012: //RootNode
+    100014: Enemy Boss
+    100016: Eye Control
+    100018: Eye Control_end
+    100020: Eye Inner.L
+    100022: Eye Inner.R
+    100024: Eyebrows
+    100026: Femur.L
+    100028: Femur.R
+    100030: Foot CTRL.L
+    100032: Foot CTRL.R
+    100034: Foot ik.L
+    100036: Foot ik.L_end
+    100038: Foot ik.R
+    100040: Foot ik.R_end
+    100042: Foot Roll CTRL.L
+    100044: Foot Roll CTRL.L_end
+    100046: Foot Roll CTRL.R
+    100048: Foot Roll CTRL.R_end
+    100050: Foot.L
+    100052: Foot.R
+    100054: Forearm.L
+    100056: Forearm.R
+    100058: Hand.L
+    100060: Hand.L_end
+    100062: Hand.R
+    100064: Hand.R_end
+    100066: Head
+    100068: Head_end
+    100070: Heel Roll.L
+    100072: Heel Roll.R
+    100074: Hips CTRL
+    100076: Knee CTRL.L
+    100078: Knee CTRL.L_end
+    100080: Knee CTRL.R
+    100082: Knee CTRL.R_end
+    100084: Master Control
+    100086: Neck
+    100088: Shin.L
+    100090: Shin.R
+    100092: Toe Roll.L
+    100094: Toe Roll.R
+    100096: Toes.L
+    100098: Toes.L_end
+    100100: Toes.R
+    100102: Toes.R_end
+    100104: Upper Arm.L
+    100106: Upper Arm.R
+    400000: Abdomen
+    400002: Armature
+    400004: Base
+    400006: Chest and Back
+    400008: Clavical.L
+    400010: Clavical.R
+    400012: //RootNode
+    400014: Enemy Boss
+    400016: Eye Control
+    400018: Eye Control_end
+    400020: Eye Inner.L
+    400022: Eye Inner.R
+    400024: Eyebrows
+    400026: Femur.L
+    400028: Femur.R
+    400030: Foot CTRL.L
+    400032: Foot CTRL.R
+    400034: Foot ik.L
+    400036: Foot ik.L_end
+    400038: Foot ik.R
+    400040: Foot ik.R_end
+    400042: Foot Roll CTRL.L
+    400044: Foot Roll CTRL.L_end
+    400046: Foot Roll CTRL.R
+    400048: Foot Roll CTRL.R_end
+    400050: Foot.L
+    400052: Foot.R
+    400054: Forearm.L
+    400056: Forearm.R
+    400058: Hand.L
+    400060: Hand.L_end
+    400062: Hand.R
+    400064: Hand.R_end
+    400066: Head
+    400068: Head_end
+    400070: Heel Roll.L
+    400072: Heel Roll.R
+    400074: Hips CTRL
+    400076: Knee CTRL.L
+    400078: Knee CTRL.L_end
+    400080: Knee CTRL.R
+    400082: Knee CTRL.R_end
+    400084: Master Control
+    400086: Neck
+    400088: Shin.L
+    400090: Shin.R
+    400092: Toe Roll.L
+    400094: Toe Roll.R
+    400096: Toes.L
+    400098: Toes.L_end
+    400100: Toes.R
+    400102: Toes.R_end
+    400104: Upper Arm.L
+    400106: Upper Arm.R
+    2300000: Eye Inner.L
+    2300002: Eye Inner.R
+    2300004: Eyebrows
+    3300000: Eye Inner.L
+    3300002: Eye Inner.R
+    3300004: Eyebrows
+    4300000: Eyebrows
+    4300002: Eye Inner.L
+    4300004: Eye Inner.R
+    4300006: Enemy Boss
+    7400000: Jog Cycle
+    7400002: Idle
+    7400004: Lunging Strike
+    7400006: Hands Ready Pose
+    7400008: Aim HandGun Pose
+    7400010: Aim Fire HandGun
+    7400012: HandGun Hip Pose
+    7400014: HandGun Hip Fire
+    7400016: Back Slash Sword
+    7400018: Full Slash Sword
+    7400020: Reload HandGun
+    7400022: Reload AR
+    7400024: Forward Kick
+    7400026: Hip Hold AR Pose
+    7400028: Hip Fire AR
+    7400030: Aim AR Pose
+    7400032: Aim Fire AR
+    7400034: ShotGun Hip Fire
+    7400036: ShotGun Aim Fire
+    7400038: Hold Sword Pose
+    9500000: //RootNode
+    13700000: Enemy Boss
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Armature|ArmatureAction' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'Upper Arm.L' has translation animation
+      that will be discarded.\n\t'Upper Arm.R' has translation animation that will
+      be discarded.\n\t'Femur.L' has scale animation that will be discarded.\n\t'Foot.L'
+      has scale animation that will be discarded.\n\t'Femur.R' has scale animation
+      that will be discarded.\n\t'Foot.R' has scale animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Jog Cycle
+      takeName: Armature|ArmatureAction
+      firstFrame: 470
+      lastFrame: 490
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Armature|ArmatureAction
+      firstFrame: 1400
+      lastFrame: 1600
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Lunging Strike
+      takeName: Armature|ArmatureAction
+      firstFrame: 560
+      lastFrame: 582
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hands Ready Pose
+      takeName: Armature|ArmatureAction
+      firstFrame: 198
+      lastFrame: 228
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Aim HandGun Pose
+      takeName: Armature|ArmatureAction
+      firstFrame: 238
+      lastFrame: 253
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Aim Fire HandGun
+      takeName: Armature|ArmatureAction
+      firstFrame: 259
+      lastFrame: 261
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HandGun Hip Pose
+      takeName: Armature|ArmatureAction
+      firstFrame: 280
+      lastFrame: 293
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HandGun Hip Fire
+      takeName: Armature|ArmatureAction
+      firstFrame: 293
+      lastFrame: 295
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Back Slash Sword
+      takeName: Armature|ArmatureAction
+      firstFrame: 415
+      lastFrame: 430
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Full Slash Sword
+      takeName: Armature|ArmatureAction
+      firstFrame: 1825
+      lastFrame: 1842
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Reload HandGun
+      takeName: Armature|ArmatureAction
+      firstFrame: 1710
+      lastFrame: 1755
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Reload AR
+      takeName: Armature|ArmatureAction
+      firstFrame: 1640
+      lastFrame: 1690
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: LeftHandIKWeightOverride
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 2
+            time: 0
+            value: 0
+            inSlope: 0.4099282
+            outSlope: 0.4099282
+            tangentMode: 0
+          - serializedVersion: 2
+            time: 0.091047585
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - serializedVersion: 2
+            time: 0.9833081
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - serializedVersion: 2
+            time: 1
+            value: 0
+            inSlope: -0.4942424
+            outSlope: -0.4942424
+            tangentMode: 0
+          preInfinity: 3
+          postInfinity: 3
+          rotationOrder: 0
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Forward Kick
+      takeName: Armature|ArmatureAction
+      firstFrame: 1780
+      lastFrame: 1800
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hip Hold AR Pose
+      takeName: Armature|ArmatureAction
+      firstFrame: 990
+      lastFrame: 1002
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hip Fire AR
+      takeName: Armature|ArmatureAction
+      firstFrame: 1002
+      lastFrame: 1004
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Aim AR Pose
+      takeName: Armature|ArmatureAction
+      firstFrame: 1047
+      lastFrame: 1057
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Aim Fire AR
+      takeName: Armature|ArmatureAction
+      firstFrame: 1057
+      lastFrame: 1059
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ShotGun Hip Fire
+      takeName: Armature|ArmatureAction
+      firstFrame: 1098
+      lastFrame: 1105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ShotGun Aim Fire
+      takeName: Armature|ArmatureAction
+      firstFrame: 1150
+      lastFrame: 1160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hold Sword Pose
+      takeName: Armature|ArmatureAction
+      firstFrame: 1280
+      lastFrame: 1290
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Eye Control
+        weight: 0
+      - path: Armature/Master Control/Eye Control/Eye Control_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Foot Roll CTRL.L/Foot Roll CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Heel Roll.L/Toe Roll.L/Foot ik.L/Foot
+          ik.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.L/Knee CTRL.L/Knee CTRL.L_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Foot Roll CTRL.R/Foot Roll CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Heel Roll.R/Toe Roll.R/Foot ik.R/Foot
+          ik.R_end
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R
+        weight: 0
+      - path: Armature/Master Control/Foot CTRL.R/Knee CTRL.R/Knee CTRL.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.L/Upper
+          Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Clavical.R/Upper
+          Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eye
+          Inner.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Eyebrows
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Abdomen/Chest and Back/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.L/Shin.L/Foot.L/Toes.L/Toes.L_end
+        weight: 0
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Master Control/Hips CTRL/Base/Femur.R/Shin.R/Foot.R/Toes.R/Toes.R_end
+        weight: 0
+      - path: Enemy Boss
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Base
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Femur.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Femur.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shin.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shin.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Abdomen
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest and Back
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clavical.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clavical.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper Arm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper Arm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Forearm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Forearm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toes.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toes.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Eye Inner.L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Eye Inner.R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Eyebrows
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: DannyMoveable20(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Master Control
+      parentName: 
+      position: {x: -0, y: 0.24251355, z: 0.05774951}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Foot CTRL.L
+      parentName: 
+      position: {x: -0.49271014, y: 0.5545725, z: -0.05748656}
+      rotation: {x: 0.7071068, y: -4.32978e-17, z: 0.7071067, w: 4.3297806e-17}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Heel Roll.L
+      parentName: 
+      position: {x: -0.3, y: 0.550387, z: 0.000000026226841}
+      rotation: {x: 0.50000006, y: 0.49999997, z: -0.4999999, w: 0.5000001}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toe Roll.L
+      parentName: 
+      position: {x: -0.000000028960427, y: 1.1, z: 0.000000022087647}
+      rotation: {x: 0.00000013510255, y: 2.1472207e-15, z: 1, w: 6.123205e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Foot ik.L
+      parentName: 
+      position: {x: -0.0000000095359445, y: 0.8000001, z: 0.55038714}
+      rotation: {x: 0.95494926, y: 0.000000002673388, z: -0.000000008602471, w: -0.2967692}
+      scale: {x: 1, y: 1.0000002, z: 1.000001}
+    - name: Foot ik.L_end
+      parentName: 
+      position: {x: -0, y: 0.97104377, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Foot Roll CTRL.L
+      parentName: 
+      position: {x: 0.00000000826528, y: 0, z: 0.0000000131134215}
+      rotation: {x: 0.50000006, y: -0.49999994, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Foot Roll CTRL.L_end
+      parentName: 
+      position: {x: -0, y: 0.7, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Knee CTRL.L
+      parentName: 
+      position: {x: 2.006908, y: -1.5377902, z: -0.00000013421595}
+      rotation: {x: 0.7071068, y: -4.32978e-17, z: 0.7071067, w: 4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Knee CTRL.L_end
+      parentName: 
+      position: {x: -0, y: 1, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Foot CTRL.R
+      parentName: 
+      position: {x: 0.49271014, y: 0.5545725, z: -0.05748656}
+      rotation: {x: 0.7071068, y: -4.32978e-17, z: 0.7071067, w: 4.3297806e-17}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Heel Roll.R
+      parentName: 
+      position: {x: -0.3, y: 0.550387, z: 0.000000026226841}
+      rotation: {x: 0.50000006, y: 0.49999997, z: -0.4999999, w: 0.5000001}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toe Roll.R
+      parentName: 
+      position: {x: -0.000000028960427, y: 1.1, z: 0.000000020132276}
+      rotation: {x: 0.00000013510255, y: 2.1472207e-15, z: 1, w: 6.123205e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Foot ik.R
+      parentName: 
+      position: {x: -0.0000000095359445, y: 0.8000001, z: 0.55038714}
+      rotation: {x: 0.95494926, y: 0.000000002673388, z: -0.000000008602471, w: -0.2967692}
+      scale: {x: 1, y: 1.0000002, z: 1.000001}
+    - name: Foot ik.R_end
+      parentName: 
+      position: {x: -0, y: 0.97104377, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Foot Roll CTRL.R
+      parentName: 
+      position: {x: -0.00000000826528, y: 0, z: 0.0000000131134215}
+      rotation: {x: 0.50000006, y: -0.49999994, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Foot Roll CTRL.R_end
+      parentName: 
+      position: {x: -0, y: 0.7, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Knee CTRL.R
+      parentName: 
+      position: {x: 2.0069914, y: -1.5377902, z: -0.00000013421959}
+      rotation: {x: 0.7071068, y: -4.32978e-17, z: 0.7071067, w: 4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Knee CTRL.R_end
+      parentName: 
+      position: {x: -0, y: 1, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hips CTRL
+      parentName: 
+      position: {x: 0.0000000754979, y: 4.3218412, z: 0.00000014901161}
+      rotation: {x: 0.0000001509958, y: -2.279974e-14, z: 1, w: -6.1228895e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Base
+      parentName: 
+      position: {x: -0.00000007549786, y: 1, z: 0.00000013411034}
+      rotation: {x: 0.0000001509958, y: 2.2799711e-14, z: 1, w: -6.1235784e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Abdomen
+      parentName: 
+      position: {x: -1.0448998e-15, y: 1, z: -3.9940273e-13}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chest and Back
+      parentName: 
+      position: {x: -1.3311292e-15, y: 0.6999998, z: -4.6324056e-13}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: 
+      position: {x: 3.6383657e-15, y: 1.258767, z: -5.780376e-13}
+      rotation: {x: -0.000000014901161, y: -0.00000011920929, z: 1.7763555e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: 
+      position: {x: -1.7750559e-15, y: 0.5, z: -0.00000000481797}
+      rotation: {x: 0.000000014901161, y: 0.00000011920929, z: -1.7763555e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye Inner.L
+      parentName: 
+      position: {x: -0.15644002, y: 0.39399242, z: 0.24868345}
+      rotation: {x: 0.85658675, y: 0.16383654, z: 0.16431525, w: -0.46088746}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999998}
+    - name: Eye Inner.R
+      parentName: 
+      position: {x: 0.15644008, y: 0.39399242, z: 0.24868345}
+      rotation: {x: 0.8544897, y: 0.16177124, z: 0.16177219, w: -0.4663767}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Eyebrows
+      parentName: 
+      position: {x: -0.00000011920929, y: 0.5386381, z: 0.30993688}
+      rotation: {x: -0.7071068, y: 0.000000102732955, z: 0.0000001238064, w: 0.7071067}
+      scale: {x: 1, y: 0.99999976, z: 1.0000001}
+    - name: Head_end
+      parentName: 
+      position: {x: -0, y: 0.90000004, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clavical.L
+      parentName: 
+      position: {x: -0.20378, y: 1.2484527, z: 0.36028087}
+      rotation: {x: -0.16775417, y: -0.1276684, z: 0.70794827, w: 0.67406875}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: Upper Arm.L
+      parentName: 
+      position: {x: -0.10423618, y: 0.8330188, z: 0.10907841}
+      rotation: {x: 0.1689939, y: -0.026495785, z: -0.027893983, w: 0.98486596}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: Forearm.L
+      parentName: 
+      position: {x: 0.0000004984891, y: 1.6261352, z: 0.000000022441554}
+      rotation: {x: 0.05727622, y: 0.70470613, z: 0.058159657, w: 0.7047881}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hand.L
+      parentName: 
+      position: {x: 0.00000002108549, y: 1.6031218, z: 0.0000009875904}
+      rotation: {x: 1.3437709e-10, y: 0.000000004304204, z: -0.031204335, w: 0.99951303}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hand.L_end
+      parentName: 
+      position: {x: -0, y: 0.90000004, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clavical.R
+      parentName: 
+      position: {x: 0.20378, y: 1.2484527, z: 0.36028087}
+      rotation: {x: 0.70794815, y: 0.6740688, z: -0.16775438, w: -0.12766838}
+      scale: {x: 0.9999999, y: 0.99999976, z: 1}
+    - name: Upper Arm.R
+      parentName: 
+      position: {x: -0.10423682, y: 0.8330186, z: -0.10907838}
+      rotation: {x: -0.16899389, y: 0.026495617, z: -0.027893871, w: 0.984866}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: Forearm.R
+      parentName: 
+      position: {x: -0.000000107496085, y: 1.6261355, z: 0.000000014453462}
+      rotation: {x: -0.05815967, y: 0.7047884, z: -0.057276092, w: 0.70470583}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hand.R
+      parentName: 
+      position: {x: 0.00000001394251, y: 1.6031216, z: 0.00000030241142}
+      rotation: {x: -4.831115e-10, y: 0.000000015474647, z: 0.031204335, w: 0.99951303}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hand.R_end
+      parentName: 
+      position: {x: -0, y: 0.90000004, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Femur.L
+      parentName: 
+      position: {x: -0.4927099, y: 0.22040987, z: -0.057486307}
+      rotation: {x: -0.000000104395305, y: 0.101832986, z: 0.9948015, w: 0.00000014454034}
+      scale: {x: 1, y: 0.99999976, z: 0.99999404}
+    - name: Shin.L
+      parentName: 
+      position: {x: -0.000000031506087, y: 1.4805995, z: -0.00000008779174}
+      rotation: {x: -0.00000017581242, y: 0.98039526, z: -0.19704114, w: -0.0000005079482}
+      scale: {x: 1, y: 1.0000004, z: 1}
+    - name: Foot.L
+      parentName: 
+      position: {x: 0.000000014652183, y: 1.5667801, z: -0.000000043264265}
+      rotation: {x: -0.5483747, y: -0.0000006192308, z: -0.00000025344013, w: 0.8362327}
+      scale: {x: 1, y: 0.99999994, z: 0.99999976}
+    - name: Toes.L
+      parentName: 
+      position: {x: -0.000000010000177, y: 0.9710437, z: -0.000000018705165}
+      rotation: {x: 0.0000000013471076, y: 0.9549492, z: -0.29676935, w: -0.00000013985857}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Toes.L_end
+      parentName: 
+      position: {x: -0, y: 0.6, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Femur.R
+      parentName: 
+      position: {x: 0.4927099, y: 0.22040987, z: -0.057486307}
+      rotation: {x: -0.0000000044040007, y: 0.101832986, z: 0.9948015, w: 0.00000013430471}
+      scale: {x: 1, y: 0.99999976, z: 0.99999404}
+    - name: Shin.R
+      parentName: 
+      position: {x: -0.0000000059872267, y: 1.4805989, z: 0.000000022470555}
+      rotation: {x: -0.00000012243694, y: 0.98039526, z: -0.19704115, w: -0.0000005186757}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Foot.R
+      parentName: 
+      position: {x: -0.000000004600737, y: 1.5667801, z: -0.000000027802741}
+      rotation: {x: -0.5483747, y: -0.0000005292406, z: -0.00000020116393, w: 0.8362327}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toes.R
+      parentName: 
+      position: {x: -0.0000000100001865, y: 0.9710437, z: 7.871127e-11}
+      rotation: {x: -0.0000000013471123, y: 0.9549492, z: -0.29676932, w: 0.00000013985857}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Toes.R_end
+      parentName: 
+      position: {x: -0, y: 0.6, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye Control
+      parentName: 
+      position: {x: 0.15202613, y: 7.1724873, z: 4.40968}
+      rotation: {x: -0.000000026692543, y: 0.00000002669254, z: 0.7071068, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye Control_end
+      parentName: 
+      position: {x: -0, y: 0.3040518, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Enemy Boss
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

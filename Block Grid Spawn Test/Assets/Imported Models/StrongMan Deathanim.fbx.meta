@@ -1,0 +1,1454 @@
+fileFormatVersion: 2
+guid: 3c8c67ce543097842aa61cde66e58344
+timeCreated: 1483228363
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Camera
+    100004: EyeBall
+    100006: Head
+    100008: Head_end
+    100010: Hemi
+    100012: Hemi.001
+    100014: HipsBone
+    100016: Left Arm
+    100018: Left Clavical
+    100020: Left Femur
+    100022: Left Foot
+    100024: Left Foot CTRL
+    100026: Left Foot Roll CTRL
+    100028: Left Foot Roll CTRL_end
+    100030: Left FootIK
+    100032: Left FootIK_end
+    100034: Left Forearm
+    100036: Left Hand
+    100038: Left Heel Rool
+    100040: Left IK Target
+    100042: Left IK Target_end
+    100044: Left Index Knuckle
+    100046: Left Index Mid
+    100048: Left Index Tip
+    100050: Left Index Tip_end
+    100052: Left Mid Knuckle
+    100054: Left Mid Mid
+    100056: Left Mid Tip
+    100058: Left Mid Tip_end
+    100060: Left Pinky Knuckle
+    100062: Left Pinky Mid
+    100064: Left Pinky Tip
+    100066: Left Pinky Tip_end
+    100068: Left Ring Knuckle
+    100070: Left Ring Mid
+    100072: Left Ring Tip
+    100074: Left Ring Tip_end
+    100076: Left Shin
+    100078: Left Shoulder
+    100080: Left Thumb Tip
+    100082: Left Thumb Tip_end
+    100084: Left Thumb Top
+    100086: Left Toe Roll
+    100088: Left Toes
+    100090: Left Toes_end
+    100092: Lower Spine
+    100094: Neck
+    100096: Pants
+    100098: Right Arm
+    100100: Right Clavical
+    100102: Right Femur
+    100104: Right Foot
+    100106: Right Foot CTRL
+    100108: Right Foot Roll CTRL
+    100110: Right Foot Roll CTRL_end
+    100112: Right FootIK
+    100114: Right FootIK_end
+    100116: Right Forearm
+    100118: Right Hand
+    100120: Right Heel Roll
+    100122: Right IK Target
+    100124: Right IK Target_end
+    100126: Right Index Knuckle
+    100128: Right Index Mid
+    100130: Right Index Tip
+    100132: Right Index Tip_end
+    100134: Right Mid Knuckle
+    100136: Right Mid Mid
+    100138: Right Mid Tip
+    100140: Right Mid Tip_end
+    100142: Right Pinky Knuckle
+    100144: Right Pinky Mid
+    100146: Right Pinky Tip
+    100148: Right Pinky Tip_end
+    100150: Right Ring Knuckle
+    100152: Right Ring Mid
+    100154: Right Ring Tip
+    100156: Right Ring Tip_end
+    100158: Right Shin
+    100160: Right Shoulder
+    100162: Right Thumb Tip
+    100164: Right Thumb Tip_end
+    100166: Right Thumb Top
+    100168: Right Toe Roll
+    100170: Right Toes
+    100172: Right Toes_end
+    100174: Root Bone
+    100176: Strongman Character
+    100178: //RootNode
+    100180: TShirt
+    100182: Upper Spine
+    400000: Armature
+    400002: Camera
+    400004: EyeBall
+    400006: Head
+    400008: Head_end
+    400010: Hemi
+    400012: Hemi.001
+    400014: HipsBone
+    400016: Left Arm
+    400018: Left Clavical
+    400020: Left Femur
+    400022: Left Foot
+    400024: Left Foot CTRL
+    400026: Left Foot Roll CTRL
+    400028: Left Foot Roll CTRL_end
+    400030: Left FootIK
+    400032: Left FootIK_end
+    400034: Left Forearm
+    400036: Left Hand
+    400038: Left Heel Rool
+    400040: Left IK Target
+    400042: Left IK Target_end
+    400044: Left Index Knuckle
+    400046: Left Index Mid
+    400048: Left Index Tip
+    400050: Left Index Tip_end
+    400052: Left Mid Knuckle
+    400054: Left Mid Mid
+    400056: Left Mid Tip
+    400058: Left Mid Tip_end
+    400060: Left Pinky Knuckle
+    400062: Left Pinky Mid
+    400064: Left Pinky Tip
+    400066: Left Pinky Tip_end
+    400068: Left Ring Knuckle
+    400070: Left Ring Mid
+    400072: Left Ring Tip
+    400074: Left Ring Tip_end
+    400076: Left Shin
+    400078: Left Shoulder
+    400080: Left Thumb Tip
+    400082: Left Thumb Tip_end
+    400084: Left Thumb Top
+    400086: Left Toe Roll
+    400088: Left Toes
+    400090: Left Toes_end
+    400092: Lower Spine
+    400094: Neck
+    400096: Pants
+    400098: Right Arm
+    400100: Right Clavical
+    400102: Right Femur
+    400104: Right Foot
+    400106: Right Foot CTRL
+    400108: Right Foot Roll CTRL
+    400110: Right Foot Roll CTRL_end
+    400112: Right FootIK
+    400114: Right FootIK_end
+    400116: Right Forearm
+    400118: Right Hand
+    400120: Right Heel Roll
+    400122: Right IK Target
+    400124: Right IK Target_end
+    400126: Right Index Knuckle
+    400128: Right Index Mid
+    400130: Right Index Tip
+    400132: Right Index Tip_end
+    400134: Right Mid Knuckle
+    400136: Right Mid Mid
+    400138: Right Mid Tip
+    400140: Right Mid Tip_end
+    400142: Right Pinky Knuckle
+    400144: Right Pinky Mid
+    400146: Right Pinky Tip
+    400148: Right Pinky Tip_end
+    400150: Right Ring Knuckle
+    400152: Right Ring Mid
+    400154: Right Ring Tip
+    400156: Right Ring Tip_end
+    400158: Right Shin
+    400160: Right Shoulder
+    400162: Right Thumb Tip
+    400164: Right Thumb Tip_end
+    400166: Right Thumb Top
+    400168: Right Toe Roll
+    400170: Right Toes
+    400172: Right Toes_end
+    400174: Root Bone
+    400176: Strongman Character
+    400178: //RootNode
+    400180: TShirt
+    400182: Upper Spine
+    2300000: EyeBall
+    3300000: EyeBall
+    4300000: EyeBall
+    4300002: TShirt
+    4300004: Pants
+    4300006: Strongman Character
+    7400000: Camera|CameraAction.001
+    7400002: Camera|HemiAction.001
+    7400004: Camera|Strongman CharacterAction
+    7400006: Hemi|CameraAction.001
+    7400008: Hemi|HemiAction.001
+    7400010: Hemi|Strongman CharacterAction
+    7400012: Hemi.001|CameraAction.001
+    7400014: Hemi.001|HemiAction.001
+    7400016: Hemi.001|Strongman CharacterAction
+    7400018: Armature|ArmatureAction
+    7400020: Armature|CameraAction.001
+    7400022: Armature|HemiAction.001
+    7400024: Armature|Strongman CharacterAction
+    7400026: TShirt|CameraAction.001
+    7400028: TShirt|HemiAction.001
+    7400030: TShirt|Strongman CharacterAction
+    7400032: Pants|CameraAction.001
+    7400034: Pants|HemiAction.001
+    7400036: Pants|Strongman CharacterAction
+    7400038: Strongman Character|CameraAction.001
+    7400040: Strongman Character|HemiAction.001
+    7400042: Strongman Character|Strongman CharacterAction
+    7400044: EyeBall|CameraAction.001
+    7400046: EyeBall|HemiAction.001
+    7400048: EyeBall|Strongman CharacterAction
+    9500000: //RootNode
+    13700000: Pants
+    13700002: Strongman Character
+    13700004: TShirt
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Armature|ArmatureAction' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'Left Clavical' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Left Shoulder'
+      has translation animation that will be discarded.\n\t'Right Clavical' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Right
+      Shoulder' has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: EyeBall|Strongman CharacterAction
+      takeName: EyeBall|Strongman CharacterAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/HipsBone
+        weight: 1
+      - path: Armature/HipsBone/Root Bone
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Left Femur
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Left Femur/Left Shin
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Left Femur/Left Shin/Left Foot
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Left Femur/Left Shin/Left Foot/Left Toes
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Left Femur/Left Shin/Left Foot/Left Toes/Left
+          Toes_end
+        weight: 0
+      - path: Armature/HipsBone/Root Bone/Lower Spine
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand/Left Index Knuckle
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand/Left Index Knuckle/Left Index Mid
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand/Left Index Knuckle/Left Index Mid/Left
+          Index Tip
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand/Left Index Knuckle/Left Index Mid/Left
+          Index Tip/Left Index Tip_end
+        weight: 0
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand/Left Mid Knuckle
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand/Left Mid Knuckle/Left Mid Mid
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand/Left Mid Knuckle/Left Mid Mid/Left
+          Mid Tip
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand/Left Mid Knuckle/Left Mid Mid/Left
+          Mid Tip/Left Mid Tip_end
+        weight: 0
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand/Left Pinky Knuckle
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand/Left Pinky Knuckle/Left Pinky Mid
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand/Left Pinky Knuckle/Left Pinky Mid/Left
+          Pinky Tip
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand/Left Pinky Knuckle/Left Pinky Mid/Left
+          Pinky Tip/Left Pinky Tip_end
+        weight: 0
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand/Left Ring Knuckle
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand/Left Ring Knuckle/Left Ring Mid
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand/Left Ring Knuckle/Left Ring Mid/Left
+          Ring Tip
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand/Left Ring Knuckle/Left Ring Mid/Left
+          Ring Tip/Left Ring Tip_end
+        weight: 0
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand/Left Thumb Top
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand/Left Thumb Top/Left Thumb Tip
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Left Clavical/Left
+          Shoulder/Left Arm/Left Forearm/Left Hand/Left Thumb Top/Left Thumb Tip/Left
+          Thumb Tip_end
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Neck
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Neck/Head
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Neck/Head/EyeBall
+        weight: 0
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand/Right Index Knuckle
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand/Right Index Knuckle/Right Index
+          Mid
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand/Right Index Knuckle/Right Index
+          Mid/Right Index Tip
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand/Right Index Knuckle/Right Index
+          Mid/Right Index Tip/Right Index Tip_end
+        weight: 0
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand/Right Mid Knuckle
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand/Right Mid Knuckle/Right Mid
+          Mid
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand/Right Mid Knuckle/Right Mid
+          Mid/Right Mid Tip
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand/Right Mid Knuckle/Right Mid
+          Mid/Right Mid Tip/Right Mid Tip_end
+        weight: 0
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand/Right Pinky Knuckle
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand/Right Pinky Knuckle/Right Pinky
+          Mid
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand/Right Pinky Knuckle/Right Pinky
+          Mid/Right Pinky Tip
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand/Right Pinky Knuckle/Right Pinky
+          Mid/Right Pinky Tip/Right Pinky Tip_end
+        weight: 0
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand/Right Ring Knuckle
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand/Right Ring Knuckle/Right Ring
+          Mid
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand/Right Ring Knuckle/Right Ring
+          Mid/Right Ring Tip
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand/Right Ring Knuckle/Right Ring
+          Mid/Right Ring Tip/Right Ring Tip_end
+        weight: 0
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand/Right Thumb Top
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand/Right Thumb Top/Right Thumb
+          Tip
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Lower Spine/Upper Spine/Right Clavical/Right
+          Shoulder/Right Arm/Right Forearm/Right Hand/Right Thumb Top/Right Thumb
+          Tip/Right Thumb Tip_end
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Right Femur
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Right Femur/Right Shin
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Right Femur/Right Shin/Right Foot
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Right Femur/Right Shin/Right Foot/Right
+          Toes
+        weight: 1
+      - path: Armature/HipsBone/Root Bone/Right Femur/Right Shin/Right Foot/Right
+          Toes/Right Toes_end
+        weight: 0
+      - path: Armature/Left Foot CTRL
+        weight: 0
+      - path: Armature/Left Foot CTRL/Left Foot Roll CTRL
+        weight: 0
+      - path: Armature/Left Foot CTRL/Left Foot Roll CTRL/Left Foot Roll CTRL_end
+        weight: 0
+      - path: Armature/Left Foot CTRL/Left Heel Rool
+        weight: 0
+      - path: Armature/Left Foot CTRL/Left Heel Rool/Left Toe Roll
+        weight: 0
+      - path: Armature/Left Foot CTRL/Left Heel Rool/Left Toe Roll/Left FootIK
+        weight: 0
+      - path: Armature/Left Foot CTRL/Left Heel Rool/Left Toe Roll/Left FootIK/Left
+          FootIK_end
+        weight: 0
+      - path: Armature/Left Foot CTRL/Left IK Target
+        weight: 0
+      - path: Armature/Left Foot CTRL/Left IK Target/Left IK Target_end
+        weight: 0
+      - path: Armature/Right Foot CTRL
+        weight: 0
+      - path: Armature/Right Foot CTRL/Right Foot Roll CTRL
+        weight: 0
+      - path: Armature/Right Foot CTRL/Right Foot Roll CTRL/Right Foot Roll CTRL_end
+        weight: 0
+      - path: Armature/Right Foot CTRL/Right Heel Roll
+        weight: 0
+      - path: Armature/Right Foot CTRL/Right Heel Roll/Right Toe Roll
+        weight: 0
+      - path: Armature/Right Foot CTRL/Right Heel Roll/Right Toe Roll/Right FootIK
+        weight: 0
+      - path: Armature/Right Foot CTRL/Right Heel Roll/Right Toe Roll/Right FootIK/Right
+          FootIK_end
+        weight: 0
+      - path: Armature/Right Foot CTRL/Right IK Target
+        weight: 0
+      - path: Armature/Right Foot CTRL/Right IK Target/Right IK Target_end
+        weight: 0
+      - path: Camera
+        weight: 0
+      - path: Hemi
+        weight: 0
+      - path: Hemi.001
+        weight: 0
+      - path: Pants
+        weight: 0
+      - path: Strongman Character
+        weight: 0
+      - path: TShirt
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Root Bone
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Femur
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Femur
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Shin
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Shin
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lower Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper Spine
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Shoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Shoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Arm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Arm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Toes
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Toes
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Mid Knuckle
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Mid Mid
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Mid Tip
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Ring Knuckle
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Ring Mid
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Ring Tip
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Pinky Knuckle
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Pinky Mid
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Pinky Tip
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Mid Knuckle
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Mid Mid
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Mid Tip
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Ring Knuckle
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Ring Mid
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Ring Tip
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Pinky Knuckle
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Pinky Mid
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Pinky Tip
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Thumb Top
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Thumb Tip
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Thumb Tip_end
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Index Knuckle
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Index Mid
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left Index Tip
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Thumb Top
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Thumb Tip
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Thumb Tip_end
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Index Knuckle
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Index Mid
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right Index Tip
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: StrongMan Deathanim(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: StrongMan Deathanim(Clone)
+      position: {x: -0, y: 7.808598, z: 0.36062148}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HipsBone
+      parentName: Armature
+      position: {x: -0.00000010741007, y: -0.00000017881393, z: -0.00000047683716}
+      rotation: {x: -0.7071067, y: -3.4586573e-16, z: -0.000000106770145, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root Bone
+      parentName: HipsBone
+      position: {x: -0.00000010741004, y: 1.4226894, z: -0.00000017881385}
+      rotation: {x: 1, y: 0.00000015099576, z: 0.000000075497894, w: 0.00000019470718}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left Femur
+      parentName: Root Bone
+      position: {x: -1.1542486, y: 0.039842173, z: 0.07612267}
+      rotation: {x: 0.00018498048, y: 0.10385358, z: 0.994592, w: -0.0011006247}
+      scale: {x: 1.0000001, y: 1, z: 1.0000012}
+    - name: Left Shin
+      parentName: Left Femur
+      position: {x: 0.00000004839967, y: 2.8453095, z: -0.0000001230801}
+      rotation: {x: 0.001081418, y: 0.97257286, z: -0.23259442, w: 0.00083025044}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+    - name: Left Foot
+      parentName: Left Shin
+      position: {x: 0.00000009188852, y: 2.5635254, z: -0.000000025960617}
+      rotation: {x: -0.00038151318, y: 0.83483726, z: -0.55049574, w: -0.001092347}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Left Toes
+      parentName: Left Foot
+      position: {x: -0.0000000602507, y: 1.7324269, z: 0.0000008098299}
+      rotation: {x: 0.32701388, y: -0.00000040434244, z: -0.000000020307844, w: 0.94501954}
+      scale: {x: 1, y: 0.99999976, z: 0.9999998}
+    - name: Left Toes_end
+      parentName: Left Toes
+      position: {x: -0, y: 1.1, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lower Spine
+      parentName: Root Bone
+      position: {x: 9.793818e-22, y: 1.4226899, z: 8.152692e-21}
+      rotation: {x: 1.4293681e-21, y: -2.1316282e-14, z: -2.991085e-21, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Upper Spine
+      parentName: Lower Spine
+      position: {x: -2.6310961e-20, y: 1.2019982, z: -1.9058241e-21}
+      rotation: {x: 0.057187393, y: -0.00000011040741, z: -0.0000000063242633, w: 0.9983635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left Clavical
+      parentName: Upper Spine
+      position: {x: -0.24750897, y: 2.472385, z: 0.39801776}
+      rotation: {x: -0.7301349, y: 0.24237628, z: 0.21611369, w: 0.6012085}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: Left Shoulder
+      parentName: Left Clavical
+      position: {x: -0.14056085, y: 1.4264318, z: 0.042354725}
+      rotation: {x: -0.13675098, y: -0.035553824, z: 0.42181116, w: 0.8956062}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Left Arm
+      parentName: Left Shoulder
+      position: {x: 0.0000000037252903, y: 1.5140446, z: -0.000000018626451}
+      rotation: {x: 0.11811841, y: -0.06908063, z: -0.0019103169, w: 0.9905919}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Left Forearm
+      parentName: Left Arm
+      position: {x: 0.000000048428774, y: 2.0226314, z: -0.00000021472535}
+      rotation: {x: 0.0667779, y: -0.72647417, z: -0.019547045, w: 0.6836621}
+      scale: {x: 0.9999997, y: 0.9999996, z: 0.9999998}
+    - name: Left Hand
+      parentName: Left Forearm
+      position: {x: 0.00000013038516, y: 2.3169544, z: 0.000000014901161}
+      rotation: {x: 0.05212332, y: -0.6361471, z: 0.01995225, w: 0.7695466}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: Left Index Knuckle
+      parentName: Left Hand
+      position: {x: 0.3143593, y: 1.4878187, z: 0.027970806}
+      rotation: {x: 0.022528825, y: 0.019935602, z: -0.088308744, w: 0.9956388}
+      scale: {x: 0.99999994, y: 0.99999964, z: 0.99999976}
+    - name: Left Index Mid
+      parentName: Left Index Knuckle
+      position: {x: 0.00000014901161, y: 0.41606152, z: -0.0000007543713}
+      rotation: {x: 0.04313063, y: -0.03136669, z: -0.0009765022, w: 0.99857646}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Left Index Tip
+      parentName: Left Index Mid
+      position: {x: -0.000000044703484, y: 0.27739847, z: -0.00000033155084}
+      rotation: {x: -0.033845123, y: -0.043421254, z: 0.012774906, w: 0.9984017}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Left Index Tip_end
+      parentName: Left Index Tip
+      position: {x: -0, y: 0.39323723, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left Mid Knuckle
+      parentName: Left Hand
+      position: {x: 0.0525913, y: 1.4626458, z: 0.04673655}
+      rotation: {x: -0.02207046, y: 0.0629975, z: 0.0030493897, w: 0.997765}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Left Mid Mid
+      parentName: Left Mid Knuckle
+      position: {x: -0.000000040978193, y: 0.42970702, z: -0.00000010197982}
+      rotation: {x: -0.00013784965, y: -0.087217264, z: 0.0009383636, w: 0.9961889}
+      scale: {x: 0.9999998, y: 1, z: 0.9999997}
+    - name: Left Mid Tip
+      parentName: Left Mid Mid
+      position: {x: 0.000000007586895, y: 0.3933928, z: 0.00000040235923}
+      rotation: {x: 0.0000000010732252, y: 0.000000016763089, z: -0.0023466041, w: 0.99999726}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Left Mid Tip_end
+      parentName: Left Mid Tip
+      position: {x: -0, y: 0.4919928, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left Pinky Knuckle
+      parentName: Left Hand
+      position: {x: -0.5173905, y: 1.4109337, z: 0.16520172}
+      rotation: {x: -0.013506276, y: 0.049944106, z: 0.054870415, w: 0.99715215}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: Left Pinky Mid
+      parentName: Left Pinky Knuckle
+      position: {x: -0.00000014901161, y: 0.22656664, z: -0.00000014901161}
+      rotation: {x: 0.012402009, y: -0.07698285, z: -0.00086267974, w: 0.9969549}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Left Pinky Tip
+      parentName: Left Pinky Mid
+      position: {x: -0.000000052154064, y: 0.2891099, z: 0.000000099185854}
+      rotation: {x: -0.021622147, y: -0.01800732, z: 0.008764145, w: 0.9995656}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Left Pinky Tip_end
+      parentName: Left Pinky Tip
+      position: {x: -0, y: 0.25243583, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left Ring Knuckle
+      parentName: Left Hand
+      position: {x: -0.29782283, y: 1.4355834, z: 0.046539538}
+      rotation: {x: -0.025047973, y: 0.06114644, z: 0.013149513, w: 0.9977278}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Left Ring Mid
+      parentName: Left Ring Knuckle
+      position: {x: 0.000000029802322, y: 0.36338782, z: 0.00000012852252}
+      rotation: {x: 0.0009085253, y: -0.08519232, z: 0.010722845, w: 0.9963064}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Left Ring Tip
+      parentName: Left Ring Mid
+      position: {x: -0.00000002062734, y: 0.3173797, z: 0.000000079792244}
+      rotation: {x: -0.009091071, y: -0.009713492, z: -0.0038550247, w: 0.9999041}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Left Ring Tip_end
+      parentName: Left Ring Tip
+      position: {x: -0, y: 0.38300174, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left Thumb Top
+      parentName: Left Hand
+      position: {x: 0.48735264, y: 0.7008951, z: -0.0675078}
+      rotation: {x: -0.0880334, y: -0.40919825, z: -0.44920653, w: 0.7893164}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Left Thumb Tip
+      parentName: Left Thumb Top
+      position: {x: -0.00000023841858, y: 0.42294365, z: -0.000000059604645}
+      rotation: {x: 0.012546715, y: 0.1975712, z: 0.020538485, w: 0.9799931}
+      scale: {x: 0.99999976, y: 1, z: 0.9999999}
+    - name: Left Thumb Tip_end
+      parentName: Left Thumb Tip
+      position: {x: -0, y: 0.44505394, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: Upper Spine
+      position: {x: 1.4210855e-14, y: 2.4365609, z: -1.8163249e-13}
+      rotation: {x: 0.10913479, y: 0.000000016176141, z: -0.000000024243779, w: 0.99402696}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Head
+      parentName: Neck
+      position: {x: -7.460699e-14, y: 0.70699525, z: -0.0000001192095}
+      rotation: {x: -0.14900783, y: 0.00000009654299, z: 0.000000020978156, w: 0.98883605}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: EyeBall
+      parentName: Head
+      position: {x: 0.00000083089884, y: -12.121934, z: -0.4580885}
+      rotation: {x: -0.7190292, y: -0.00000005030765, z: 0.000000048625008, w: 0.6949799}
+      scale: {x: 1, y: 0.99999976, z: 0.9999999}
+    - name: Head_end
+      parentName: Head
+      position: {x: -0, y: 1.1409979, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right Clavical
+      parentName: Upper Spine
+      position: {x: 0.24750918, y: 2.472385, z: 0.39801764}
+      rotation: {x: -0.7364036, y: -0.26065135, z: -0.19368039, w: 0.59351385}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right Shoulder
+      parentName: Right Clavical
+      position: {x: 0.14288756, y: 1.4264319, z: 0.03368127}
+      rotation: {x: -0.1495887, y: 0.06293016, z: -0.4174312, w: 0.89409965}
+      scale: {x: 0.9999997, y: 0.99999994, z: 1}
+    - name: Right Arm
+      parentName: Right Shoulder
+      position: {x: 0.000000022351742, y: 1.5140444, z: -0.00000022724271}
+      rotation: {x: -0.009122574, y: 0.9845218, z: 0.11778127, w: -0.12946504}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Right Forearm
+      parentName: Right Arm
+      position: {x: 0.00000008195639, y: 2.0226312, z: -0.00000021606684}
+      rotation: {x: -0.008862669, y: -0.8574421, z: 0.06901342, w: 0.5098547}
+      scale: {x: 0.9999999, y: 1.0000004, z: 0.99999976}
+    - name: Right Hand
+      parentName: Right Forearm
+      position: {x: 0.0000001937151, y: 2.3169544, z: -0.000000059604645}
+      rotation: {x: 0.013831959, y: 0.17121619, z: -0.054070733, w: 0.9836514}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: Right Index Knuckle
+      parentName: Right Hand
+      position: {x: -0.0027848566, y: 1.4878187, z: 0.31558895}
+      rotation: {x: 0.07601266, y: 0.65408605, z: 0.050281633, w: 0.7509097}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.9999998}
+    - name: Right Index Mid
+      parentName: Right Index Knuckle
+      position: {x: -0.000000074505806, y: 0.4160617, z: -0.00000030873343}
+      rotation: {x: 0.04313063, y: 0.031366732, z: 0.00097652065, w: 0.99857646}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right Index Tip
+      parentName: Right Index Mid
+      position: {x: 0.000000037252903, y: 0.27739805, z: -0.00000033900142}
+      rotation: {x: -0.033845127, y: 0.04342126, z: -0.012774905, w: 0.9984017}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: Right Index Tip_end
+      parentName: Right Index Tip
+      position: {x: -0, y: 0.39323723, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right Mid Knuckle
+      parentName: Right Hand
+      position: {x: 0.041391328, y: 1.4626458, z: 0.056894034}
+      rotation: {x: -0.018397188, y: 0.6236164, z: 0.012567741, w: 0.781413}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Right Mid Mid
+      parentName: Right Mid Knuckle
+      position: {x: 0.000000055879354, y: 0.42970708, z: 0.00000039720908}
+      rotation: {x: -0.00013785018, y: 0.087217234, z: -0.0009383602, w: 0.9961889}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.99999964}
+    - name: Right Mid Tip
+      parentName: Right Mid Mid
+      position: {x: 6.9445605e-10, y: 0.3933929, z: -0.00000049933874}
+      rotation: {x: 7.957651e-11, y: 0.000000009800217, z: 0.0023466062, w: 0.99999726}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Right Mid Tip_end
+      parentName: Right Mid Tip
+      position: {x: -0, y: 0.4919928, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right Pinky Knuckle
+      parentName: Right Hand
+      position: {x: 0.21481793, y: 1.4109335, z: -0.49883652}
+      rotation: {x: -0.04686612, y: 0.6328742, z: -0.03157384, w: 0.7721897}
+      scale: {x: 0.9999998, y: 0.99999946, z: 0.9999997}
+    - name: Right Pinky Mid
+      parentName: Right Pinky Knuckle
+      position: {x: -0.000000029802322, y: 0.22656663, z: -0.00000024586916}
+      rotation: {x: 0.012402011, y: 0.076982774, z: 0.000862693, w: 0.9969549}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Right Pinky Tip
+      parentName: Right Pinky Mid
+      position: {x: 0.000000115484, y: 0.28910965, z: 0.00000004749745}
+      rotation: {x: -0.021622144, y: 0.018007359, z: -0.008764125, w: 0.9995656}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: Right Pinky Tip_end
+      parentName: Right Pinky Tip
+      position: {x: -0, y: 0.25243583, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right Ring Knuckle
+      parentName: Right Hand
+      position: {x: 0.075330906, y: 1.4355832, z: -0.29187265}
+      rotation: {x: -0.027387848, y: 0.6249625, z: 0.0070863655, w: 0.780142}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.9999999}
+    - name: Right Ring Mid
+      parentName: Right Ring Knuckle
+      position: {x: -0, y: 0.363388, z: 0.00000004656613}
+      rotation: {x: 0.00090852403, y: 0.08519235, z: -0.010722855, w: 0.9963064}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Right Ring Tip
+      parentName: Right Ring Mid
+      position: {x: 0.00000002321758, y: 0.31737986, z: -0.00000036958318}
+      rotation: {x: -0.009091071, y: 0.009713548, z: 0.0038550037, w: 0.9999041}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Right Ring Tip_end
+      parentName: Right Ring Tip
+      position: {x: -0, y: 0.38300174, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right Thumb Top
+      parentName: Right Hand
+      position: {x: -0.11466179, y: 0.7008952, z: 0.47845852}
+      rotation: {x: 0.23655877, y: 0.8333622, z: 0.3918881, w: 0.30979198}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999999}
+    - name: Right Thumb Tip
+      parentName: Right Thumb Top
+      position: {x: 0.00000032782555, y: 0.4229437, z: -0.00000035762787}
+      rotation: {x: 0.012549313, y: -0.19757181, z: -0.020536741, w: 0.9799929}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Right Thumb Tip_end
+      parentName: Right Thumb Tip
+      position: {x: -0, y: 0.44505394, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right Femur
+      parentName: Root Bone
+      position: {x: 1.1542486, y: 0.039842162, z: 0.07612267}
+      rotation: {x: -0.00013532807, y: 0.103856266, z: 0.99459213, w: 0.0006242813}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000011}
+    - name: Right Shin
+      parentName: Right Femur
+      position: {x: -0.00000005363836, y: 2.8453085, z: -0.00000003556488}
+      rotation: {x: -0.0005889476, y: 0.9725719, z: -0.23259838, w: 0.001229483}
+      scale: {x: 0.9999999, y: 1.0000002, z: 0.9999997}
+    - name: Right Foot
+      parentName: Right Shin
+      position: {x: 0.00000012166856, y: 2.5635252, z: 0.00000012444798}
+      rotation: {x: -0.00033487997, y: 0.8348356, z: -0.5504985, w: -0.0009574578}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.9999999}
+    - name: Right Toes
+      parentName: Right Foot
+      position: {x: 0.000000101102785, y: 1.732428, z: -0.00000031795145}
+      rotation: {x: 0.327014, y: -0.000000039957655, z: 0.00000007129744, w: 0.94501954}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Right Toes_end
+      parentName: Right Toes
+      position: {x: -0, y: 1.1, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left Foot CTRL
+      parentName: Armature
+      position: {x: -1.149362, y: -0.0014045835, z: -6.6432104}
+      rotation: {x: -0.5, y: 0.49999997, z: -0.5, w: 0.50000006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left Foot Roll CTRL
+      parentName: Left Foot CTRL
+      position: {x: -4.499867e-11, y: 0, z: -1.06043174e-10}
+      rotation: {x: 0.5, y: -0.5, z: 0.49999997, w: 0.50000006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left Foot Roll CTRL_end
+      parentName: Left Foot Roll CTRL
+      position: {x: -0, y: 1.2, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left Heel Rool
+      parentName: Left Foot CTRL
+      position: {x: -0.33802593, y: 1.0707593, z: 0.0000002638328}
+      rotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Left Toe Roll
+      parentName: Left Heel Rool
+      position: {x: -0.00000016442792, y: 1.6999291, z: 0.0000007774694}
+      rotation: {x: 1, y: -0.00000012138788, z: 0.0000004478635, w: -0.000000043711335}
+      scale: {x: 1.0000002, y: 0.99999976, z: 1.0000002}
+    - name: Left FootIK
+      parentName: Left Toe Roll
+      position: {x: -0.00000007513482, y: 1.3619028, z: 1.0707589}
+      rotation: {x: -0.0000001693373, y: -0.32701376, z: 0.9450196, w: 0.000000021292971}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left FootIK_end
+      parentName: Left FootIK
+      position: {x: -0, y: 1.7324274, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left IK Target
+      parentName: Left Foot CTRL
+      position: {x: 7.998595, y: -2.9087262, z: -0.0000006039832}
+      rotation: {x: -0, y: -0.70710677, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left IK Target_end
+      parentName: Left IK Target
+      position: {x: -0, y: 1.2250004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right Foot CTRL
+      parentName: Armature
+      position: {x: 1.149362, y: -0.0014045835, z: -6.6432104}
+      rotation: {x: -0.5, y: 0.49999997, z: -0.5, w: 0.50000006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right Foot Roll CTRL
+      parentName: Right Foot CTRL
+      position: {x: 4.499867e-11, y: 0, z: -1.06043174e-10}
+      rotation: {x: 0.5, y: -0.5, z: 0.49999997, w: 0.50000006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right Foot Roll CTRL_end
+      parentName: Right Foot Roll CTRL
+      position: {x: -0, y: 1.2, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right Heel Roll
+      parentName: Right Foot CTRL
+      position: {x: -0.33802605, y: 1.0707593, z: 0.000000025414215}
+      rotation: {x: -0.50000006, y: -0.49999994, z: -0.49999997, w: 0.50000006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right Toe Roll
+      parentName: Right Heel Roll
+      position: {x: 0.00000026695585, y: 1.6999286, z: -0.0000001832127}
+      rotation: {x: 1, y: 0.00000006119526, z: 0.0000007884426, w: -0.000000043711438}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: Right FootIK
+      parentName: Right Toe Roll
+      position: {x: -0.00000004288902, y: 1.3619027, z: 1.0707594}
+      rotation: {x: -0.00000016933728, y: -0.32701376, z: 0.9450196, w: 0.000000021292974}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right FootIK_end
+      parentName: Right FootIK
+      position: {x: -0, y: 1.7324274, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right IK Target
+      parentName: Right Foot CTRL
+      position: {x: 7.998595, y: -2.9087262, z: -0.0000006039832}
+      rotation: {x: -0, y: -0.70710677, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Right IK Target_end
+      parentName: Right IK Target
+      position: {x: -0, y: 1.2250004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Camera
+      parentName: StrongMan Deathanim(Clone)
+      position: {x: -17.468937, y: 10.226919, z: 5.5091376}
+      rotation: {x: -0.014155836, y: 0.21597621, z: -0.06385283, w: 0.9742057}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Hemi
+      parentName: StrongMan Deathanim(Clone)
+      position: {x: -2.0926752, y: 12.221857, z: -0.000000603497}
+      rotation: {x: 1, y: 0, z: -0, w: 0.0000000754979}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hemi.001
+      parentName: StrongMan Deathanim(Clone)
+      position: {x: 0.16905117, y: 20.246952, z: 1.4898025}
+      rotation: {x: 1, y: 0, z: -0, w: 0.0000000754979}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pants
+      parentName: StrongMan Deathanim(Clone)
+      position: {x: -0, y: 0, z: 0.000000059604645}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 0.9999837}
+    - name: Strongman Character
+      parentName: StrongMan Deathanim(Clone)
+      position: {x: -0, y: 0, z: 0.000000059604645}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 0.9999837}
+    - name: TShirt
+      parentName: StrongMan Deathanim(Clone)
+      position: {x: -0, y: 0, z: 0.000000059604645}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 0.9999837}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: e468a89b36b1f084a9eb4b510b53e73f
+timeCreated: 1475722493
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Abdomen
+    100002: Armature
+    100004: Base
+    100006: Camera
+    100008: Chest and Back
+    100010: Clavical.L
+    100012: Clavical.R
+    100014: Enemy Boss
+    100016: Eye Control
+    100018: Eye Control_end
+    100020: Eye Inner.L
+    100022: Eye Inner.R
+    100024: Eyebrows
+    100026: Femur.L
+    100028: Femur.R
+    100030: Foot CTRL.L
+    100032: Foot CTRL.R
+    100034: Foot ik.L
+    100036: Foot ik.L_end
+    100038: Foot ik.R
+    100040: Foot ik.R_end
+    100042: Foot Roll CTRL.L
+    100044: Foot Roll CTRL.L_end
+    100046: Foot Roll CTRL.R
+    100048: Foot Roll CTRL.R_end
+    100050: Foot.L
+    100052: Foot.R
+    100054: Forearm.L
+    100056: Forearm.R
+    100058: Hand.L
+    100060: Hand.L_end
+    100062: Hand.R
+    100064: Hand.R_end
+    100066: Head
+    100068: Head_end
+    100070: Heel Roll.L
+    100072: Heel Roll.R
+    100074: Hips CTRL
+    100076: Knee CTRL.L
+    100078: Knee CTRL.L_end
+    100080: Knee CTRL.R
+    100082: Knee CTRL.R_end
+    100084: Master Control
+    100086: Neck
+    100088: //RootNode
+    100090: Shin.L
+    100092: Shin.R
+    100094: Sun.000
+    100096: Sun.001
+    100098: Sun.002
+    100100: Toe Roll.L
+    100102: Toe Roll.R
+    100104: Toes.L
+    100106: Toes.L_end
+    100108: Toes.R
+    100110: Toes.R_end
+    100112: Upper Arm.L
+    100114: Upper Arm.R
+    400000: Abdomen
+    400002: Armature
+    400004: Base
+    400006: Camera
+    400008: Chest and Back
+    400010: Clavical.L
+    400012: Clavical.R
+    400014: Enemy Boss
+    400016: Eye Control
+    400018: Eye Control_end
+    400020: Eye Inner.L
+    400022: Eye Inner.R
+    400024: Eyebrows
+    400026: Femur.L
+    400028: Femur.R
+    400030: Foot CTRL.L
+    400032: Foot CTRL.R
+    400034: Foot ik.L
+    400036: Foot ik.L_end
+    400038: Foot ik.R
+    400040: Foot ik.R_end
+    400042: Foot Roll CTRL.L
+    400044: Foot Roll CTRL.L_end
+    400046: Foot Roll CTRL.R
+    400048: Foot Roll CTRL.R_end
+    400050: Foot.L
+    400052: Foot.R
+    400054: Forearm.L
+    400056: Forearm.R
+    400058: Hand.L
+    400060: Hand.L_end
+    400062: Hand.R
+    400064: Hand.R_end
+    400066: Head
+    400068: Head_end
+    400070: Heel Roll.L
+    400072: Heel Roll.R
+    400074: Hips CTRL
+    400076: Knee CTRL.L
+    400078: Knee CTRL.L_end
+    400080: Knee CTRL.R
+    400082: Knee CTRL.R_end
+    400084: Master Control
+    400086: Neck
+    400088: //RootNode
+    400090: Shin.L
+    400092: Shin.R
+    400094: Sun.000
+    400096: Sun.001
+    400098: Sun.002
+    400100: Toe Roll.L
+    400102: Toe Roll.R
+    400104: Toes.L
+    400106: Toes.L_end
+    400108: Toes.R
+    400110: Toes.R_end
+    400112: Upper Arm.L
+    400114: Upper Arm.R
+    2300000: Eye Inner.L
+    2300002: Eye Inner.R
+    2300004: Eyebrows
+    3300000: Eye Inner.L
+    3300002: Eye Inner.R
+    3300004: Eyebrows
+    4300000: Eyebrows
+    4300002: Eye Inner.L
+    4300004: Eye Inner.R
+    4300006: Enemy Boss
+    7400000: Armature|ArmatureAction
+    9500000: //RootNode
+    13700000: Enemy Boss
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

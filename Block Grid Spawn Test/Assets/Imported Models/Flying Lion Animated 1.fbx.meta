@@ -1,0 +1,710 @@
+fileFormatVersion: 2
+guid: c4f6b7de41ecdcd4e87a087af304252c
+timeCreated: 1480842900
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cube
+    100002: Dorsal Connect
+    100004: Dorsal Fin
+    100006: Dorsal Fin_end
+    100008: Fin.l
+    100010: Fin.l_end
+    100012: Fin.r
+    100014: Fin.r_end
+    100016: //RootNode
+    100018: Lion Bones
+    100020: Lower Jaw
+    100022: Lower Jaw Connect
+    100024: Lower Jaw_end
+    100026: neck
+    100028: Rocket.l
+    100030: Rocket.l_end
+    100032: Rocket.r
+    100034: Rocket.r_end
+    100036: Shoulder.l
+    100038: Shoulder.r
+    100040: Spine 1
+    100042: Spine 2
+    100044: Spine 3
+    100046: Tail
+    100048: Upper Jaw
+    100050: Upper Jaw Connect
+    100052: Upper Jaw_end
+    400000: Cube
+    400002: Dorsal Connect
+    400004: Dorsal Fin
+    400006: Dorsal Fin_end
+    400008: Fin.l
+    400010: Fin.l_end
+    400012: Fin.r
+    400014: Fin.r_end
+    400016: //RootNode
+    400018: Lion Bones
+    400020: Lower Jaw
+    400022: Lower Jaw Connect
+    400024: Lower Jaw_end
+    400026: neck
+    400028: Rocket.l
+    400030: Rocket.l_end
+    400032: Rocket.r
+    400034: Rocket.r_end
+    400036: Shoulder.l
+    400038: Shoulder.r
+    400040: Spine 1
+    400042: Spine 2
+    400044: Spine 3
+    400046: Tail
+    400048: Upper Jaw
+    400050: Upper Jaw Connect
+    400052: Upper Jaw_end
+    4300000: Cube
+    7400000: Lion Bones|HemiAction
+    7400002: Bite Attack
+    7400004: Idle
+    7400006: Roar Stun
+    7400008: Rocket Dash
+    7400010: Rocket Dash - Blast loop
+    7400012: Death Comes
+    7400014: Death Loop
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: Lion Bones/Spine 1
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Lion Bones|Lion BonesAction
+      firstFrame: 1
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lion Bones
+        weight: 1
+      - path: Lion Bones/Spine 1
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect/Dorsal Fin
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect/Dorsal Fin/Dorsal Fin_end
+        weight: 1
+      - path: Lion Bones/Spine 1/neck
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect/Lower Jaw
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect/Lower Jaw/Lower Jaw_end
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect/Upper Jaw
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect/Upper Jaw/Upper Jaw_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l/Fin.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l/Fin.l/Fin.l_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r/Fin.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r/Fin.r/Fin.r_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.l/Rocket.l_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.r/Rocket.r_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bite Attack
+      takeName: Lion Bones|Lion BonesAction
+      firstFrame: 110
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lion Bones
+        weight: 1
+      - path: Lion Bones/Spine 1
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect/Dorsal Fin
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect/Dorsal Fin/Dorsal Fin_end
+        weight: 1
+      - path: Lion Bones/Spine 1/neck
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect/Lower Jaw
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect/Lower Jaw/Lower Jaw_end
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect/Upper Jaw
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect/Upper Jaw/Upper Jaw_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l/Fin.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l/Fin.l/Fin.l_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r/Fin.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r/Fin.r/Fin.r_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.l/Rocket.l_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.r/Rocket.r_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Roar Stun
+      takeName: Lion Bones|Lion BonesAction
+      firstFrame: 140
+      lastFrame: 185
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lion Bones
+        weight: 1
+      - path: Lion Bones/Spine 1
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect/Dorsal Fin
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect/Dorsal Fin/Dorsal Fin_end
+        weight: 1
+      - path: Lion Bones/Spine 1/neck
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect/Lower Jaw
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect/Lower Jaw/Lower Jaw_end
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect/Upper Jaw
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect/Upper Jaw/Upper Jaw_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l/Fin.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l/Fin.l/Fin.l_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r/Fin.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r/Fin.r/Fin.r_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.l/Rocket.l_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.r/Rocket.r_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rocket Dash
+      takeName: Lion Bones|Lion BonesAction
+      firstFrame: 200
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lion Bones
+        weight: 1
+      - path: Lion Bones/Spine 1
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect/Dorsal Fin
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect/Dorsal Fin/Dorsal Fin_end
+        weight: 1
+      - path: Lion Bones/Spine 1/neck
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect/Lower Jaw
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect/Lower Jaw/Lower Jaw_end
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect/Upper Jaw
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect/Upper Jaw/Upper Jaw_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l/Fin.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l/Fin.l/Fin.l_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r/Fin.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r/Fin.r/Fin.r_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.l/Rocket.l_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.r/Rocket.r_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rocket Dash - Blast loop
+      takeName: Lion Bones|Lion BonesAction
+      firstFrame: 242
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lion Bones
+        weight: 1
+      - path: Lion Bones/Spine 1
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect/Dorsal Fin
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect/Dorsal Fin/Dorsal Fin_end
+        weight: 1
+      - path: Lion Bones/Spine 1/neck
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect/Lower Jaw
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect/Lower Jaw/Lower Jaw_end
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect/Upper Jaw
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect/Upper Jaw/Upper Jaw_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l/Fin.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l/Fin.l/Fin.l_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r/Fin.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r/Fin.r/Fin.r_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.l/Rocket.l_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.r/Rocket.r_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death Comes
+      takeName: Lion Bones|Lion BonesAction
+      firstFrame: 260
+      lastFrame: 360
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lion Bones
+        weight: 1
+      - path: Lion Bones/Spine 1
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect/Dorsal Fin
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect/Dorsal Fin/Dorsal Fin_end
+        weight: 1
+      - path: Lion Bones/Spine 1/neck
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect/Lower Jaw
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect/Lower Jaw/Lower Jaw_end
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect/Upper Jaw
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect/Upper Jaw/Upper Jaw_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l/Fin.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l/Fin.l/Fin.l_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r/Fin.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r/Fin.r/Fin.r_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.l/Rocket.l_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.r/Rocket.r_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death Loop
+      takeName: Lion Bones|Lion BonesAction
+      firstFrame: 359
+      lastFrame: 360
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lion Bones
+        weight: 1
+      - path: Lion Bones/Spine 1
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect/Dorsal Fin
+        weight: 1
+      - path: Lion Bones/Spine 1/Dorsal Connect/Dorsal Fin/Dorsal Fin_end
+        weight: 1
+      - path: Lion Bones/Spine 1/neck
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect/Lower Jaw
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Lower Jaw Connect/Lower Jaw/Lower Jaw_end
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect/Upper Jaw
+        weight: 1
+      - path: Lion Bones/Spine 1/neck/Upper Jaw Connect/Upper Jaw/Upper Jaw_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l/Fin.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.l/Fin.l/Fin.l_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r/Fin.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Shoulder.r/Fin.r/Fin.r_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.l
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.l/Rocket.l_end
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.r
+        weight: 1
+      - path: Lion Bones/Spine 1/Spine 2/Spine 3/Tail/Rocket.r/Rocket.r_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
