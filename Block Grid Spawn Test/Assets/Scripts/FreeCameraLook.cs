@@ -51,13 +51,13 @@ public class FreeCameraLook : Pivot
 	{
 		base.Update ();
 
-        if (GameMasterObject.Instance != null)
-        {
-            if (GameMasterObject.Instance.lockCursor == true)
-            {
+        //if (GameMasterObject.Instance != null)
+        //{
+        //    if (GameMasterObject.Instance.lockCursor == true)
+        //    {
                 HandleRotationMovement();
-            }
-        }
+        //    }
+        //}
 
         // controllerInverted = InvertedControlsScript.isInverted;
 
@@ -145,4 +145,5 @@ public class FreeCameraLook : Pivot
 
 		//}
 	}
+
 }

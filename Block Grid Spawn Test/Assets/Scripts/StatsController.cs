@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class StatsController : MonoBehaviour 
+public class StatsController : MonoBehaviour
 {
     #region Global Variable Declaration
 
