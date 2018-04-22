@@ -4,15 +4,19 @@ using System.Collections;
 [ExecuteInEditMode]
 public class Pivot : FollowTarget 
 {
+    #region Global Variable Declaration
 
-	protected Transform cam;
-	protected Transform pivot;
+    protected Transform cam;
+    protected Transform camHolder;
+    protected Transform pivot;
 	protected Vector3 lastTargetPosition;
 
-	protected virtual void Awake()
+    #endregion
+
+    protected virtual void Awake()
 	{
 		cam = GetComponentInChildren<Camera> ().transform;
-		pivot = cam.parent;
+		pivot = cam.parent.Find("Pivot");
 	}
 
 	protected override void Start () 
@@ -35,7 +39,7 @@ public class Pivot : FollowTarget
 				cam.localPosition = Vector3.Scale(cam.localPosition, Vector3.forward);
 			}
 
-			cam.localPosition = Vector3.Scale (cam.localPosition, Vector3.forward);
+			// cam.localPosition = Vector3.Scale (cam.localPosition, Vector3.forward);
 		}
 	}
 

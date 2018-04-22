@@ -3,7 +3,6 @@ using System.Collections;
 
 public class HandleAnimations : MonoBehaviour 
 {
-
 	#region Global Variable Declaration
 
 	public Animator anim;
@@ -27,12 +26,19 @@ public class HandleAnimations : MonoBehaviour
 		states.reloading = anim.GetBool ("Reloading");
 
 		anim.SetBool ("Aim", states.aiming);
-
-
-		if(!states.canRun)
+        
+		if(states.canRun)
 		{
-			anim.SetFloat ("Forward", states.vertical, 0.1f, Time.deltaTime);
-			anim.SetFloat ("Sideways", states.horizontal, 0.1f, Time.deltaTime);
+            if(states.sprint)
+            {
+                anim.SetBool("Dash", true);
+            }
+            else
+            {
+                anim.SetBool("Dash", false);
+                anim.SetFloat("Forward", states.vertical, 0.1f, Time.deltaTime);
+                anim.SetFloat("Sideways", states.horizontal, 0.1f, Time.deltaTime);
+            }
 		}
 		else
 		{
@@ -75,8 +81,8 @@ public class HandleAnimations : MonoBehaviour
 	{
 		if(!states.reloading)
 		{
-//			Debug.Log ("Reload");
 			anim.SetTrigger ("Reload");
 		}
 	}
+
 }

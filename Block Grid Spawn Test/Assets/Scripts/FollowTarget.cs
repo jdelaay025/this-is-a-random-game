@@ -1,14 +1,18 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 
 public abstract class FollowTarget : MonoBehaviour 
 {
-	[SerializeField] public Transform target;
+    #region Global Variable Declaration
+
+    [SerializeField] public Transform target;
 	[SerializeField] private bool autoTargetPlayer = true;
 
 	Rigidbody rigidBody;
 
-	virtual protected void Start()
+    #endregion
+
+    virtual protected void Start()
 	{
 		if (autoTargetPlayer) 
 		{
@@ -50,4 +54,5 @@ public abstract class FollowTarget : MonoBehaviour
 	}
 
 	public Transform Target{get {return this.target;}}
+
 }

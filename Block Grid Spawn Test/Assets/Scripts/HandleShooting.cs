@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
 
 public class HandleShooting : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class HandleShooting : MonoBehaviour
     public GameObject smokeParticle;
     public ParticleSystem[] muzzle;
     public GameObject casingPrefab;
+    public List<GameObject> casingSpawns;
+    public int numOfCasingSpawns = 40;
     public Transform caseSpawn;
     public LayerMask layerMask;
     public float damage = 30;
@@ -62,6 +65,13 @@ public class HandleShooting : MonoBehaviour
         curBullets = maxBullets;
 
         initialColor = ridicule.color;
+
+        for (int i = 0; i < numOfCasingSpawns; i++)
+        {
+            GameObject go = Instantiate(casingPrefab, caseSpawn.position, caseSpawn.rotation) as GameObject;
+            go.SetActive(false);
+            casingSpawns.Add(go);
+        }
     }
     void Update()
     {
@@ -96,14 +106,25 @@ public class HandleShooting : MonoBehaviour
                 if (curBullets > 0)
                 {
                     emptyGun = false;
-                    states.audioManager.PlayGunSound();
 
                     ShakeCamera.InstanceSM1.ShakeSM1(amplitude, duration);
 
-                    GameObject go = Instantiate(casingPrefab, caseSpawn.position, caseSpawn.rotation) as GameObject;
-                    Rigidbody rig = go.GetComponent<Rigidbody>();
-                    rig.AddForce(transform.right.normalized * 2 + Vector3.up * 1.3f, ForceMode.Impulse);
-                    rig.AddRelativeTorque(go.transform.right * 1.5f, ForceMode.Impulse);
+                    for (int i = 0; i < casingSpawns.Count; i++)
+                    {
+                        GameObject casing = casingSpawns[i];
+                        if (!casing.activeInHierarchy)
+                        {
+                            casing.transform.position = caseSpawn.position;
+                            casing.SetActive(true);
+                            Rigidbody rb = casing.GetComponent<Rigidbody>();
+                            if (rb != null)
+                            {
+                                rb.AddForce(transform.right.normalized * 2 + Vector3.up * 1.3f, ForceMode.Impulse);
+                                rb.AddRelativeTorque(casing.transform.right * 1.5f, ForceMode.Impulse);
+                            }
+                            break;
+                        }
+                    }
 
                     for (int i = 0; i < muzzle.Length; i++)
                     {
@@ -151,13 +172,6 @@ public class HandleShooting : MonoBehaviour
 
         if (Physics.Raycast(raySpawnPoint.position, raySpawnPoint.forward, out hit))
         {
-            #region rotates Cube around barrel of the gun for tracer bullets commented out
-            //Vector3 dir = hit.point - tracerBulletSpawn.position;
-            //Quaternion newRotation = Quaternion.LookRotation(dir);
-
-            //tracerBulletSpawn.rotation = newRotation;
-            #endregion
-
             if (hit.collider.gameObject.tag == "Enemy")
             {
                 ridicule.color = Color.red;
@@ -167,7 +181,6 @@ public class HandleShooting : MonoBehaviour
                 ridicule.color = initialColor;
             }
         }
-
     }
     private void OnEnable()
     {

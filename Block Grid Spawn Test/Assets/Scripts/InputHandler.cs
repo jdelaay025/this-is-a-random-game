@@ -28,9 +28,11 @@ public class InputHandler : MonoBehaviour
     [Header("Camera Collision")]   
     public float currentXOffset = 0.5f;
 	public float cameraNormalZ = -2f;
-	public float cameraAimingZ = 0.96f;
+    public float cameraAimingZ = 0.96f;
+    public float cameraNormalY = 3f;
+    public float cameraAimingY = 0f;
 
-	public float shakeRecoil = 0.5f;
+    public float shakeRecoil = 0.5f;
 	public float shakeMovement = 0.3f;
 	public float shakeMin = 0.1f;
 
@@ -42,6 +44,7 @@ public class InputHandler : MonoBehaviour
 	float actualZ;
 	float curZ;
     float targetFov;
+    float curY;
     float curFov;
     float targetShake;
     float curShake;
@@ -52,31 +55,46 @@ public class InputHandler : MonoBehaviour
 	ShakeCamera shakeCam;
 	[HideInInspector]
 	StateManager states;
-    
+
+    [SerializeField]
+    AimSound.GunSoundSource gunSoundSource;
+    GunFireState fireState;
+
+    public enum GunFireState
+    {
+        SingleFire = 0,
+        BurstFire = 1,
+        FullAuto = 2
+    }
+
+    public GameObject AssualtRifle;
+
     #endregion
 
+    void Awake()
+    {
+
+    }
     void Start () 
 	{
 		crosshairManager = CrosshairManager.GetInstance ();
 		//camProperties = FreeCameraLook.GetInstance ();
 		//camPivot = camProperties.transform.GetChild(0);
-		camTrans = camPivot.GetChild (0);
-		shakeCam = camPivot.GetComponentInChildren<ShakeCamera> ();
+		//camTrans = camPivot.parent.GetChild (0);
+		//shakeCam = camPivot.GetComponentInChildren<ShakeCamera> ();
 	
 		states = GetComponent<StateManager> ();
 
 		//layerMask = ~(1 << gameObject.layer);
 		states.layerMask = layerMask;
-	}
+        fireState = GunFireState.FullAuto;
+    }
 	void Update()
 	{
 		if (!GameMasterObject.isPlayerActive) 
 		{
 			return;
 		}
-
-//		Debug.Log (states.onGround);
-//		Debug.Log (states.sprint);
 	}
 	void FixedUpdate () 
 	{
@@ -89,43 +107,49 @@ public class InputHandler : MonoBehaviour
 		UpdateStates ();
 		HandleShake();
 
-//      Find where the camera is looking
-		Ray ray = new Ray(camTrans.position, camTrans.forward);
-		states.lookPosition = ray.GetPoint (100);
-		RaycastHit hit;
+        // check for obstacles in front of cam
+        // CameraCollision (layerMask);
 
-//		Debug.DrawRay (ray.origin, ray.direction);
+        if (FreeCameraLook.Instance.state == FreeCameraLook.CameraState.ThirdPerson)
+        {
+		    Ray ray = new Ray(camTrans.position, camTrans.forward);
+            states.lookPosition = ray.GetPoint(100);
+            RaycastHit hit;
 
-		if (Physics.Raycast (ray.origin, ray.direction, out hit, 100, layerMask)) 
-		{
-			states.lookHitPosition = hit.point;
-		} 
-		else 
-		{
-			states.lookHitPosition = states.lookPosition;
-		}
-//      check for obstacles in front of cam
-		CameraCollision (layerMask);
+		    if (Physics.Raycast (ray.origin, ray.direction, out hit, 100, layerMask)) 
+		    {
+			    states.lookHitPosition = hit.point;
+		    } 
+		    else 
+		    {
+			    states.lookHitPosition = states.lookPosition;
+		    }
 
-		if(!states.sprint && !states.aiming)
-		{
-			curZ = Mathf.Lerp (curZ, actualZ, Time.deltaTime * 5);
-			camTrans.localPosition = new Vector3 (currentXOffset, 0f, curZ);
-		}
-		else if(states.sprint && !states.aiming)
-		{
-			curZ = Mathf.Lerp (curZ, actualZ, Time.deltaTime * 5);
-			camTrans.localPosition = new Vector3 (currentXOffset, 0f, curZ);
-		}
-		else if(states.aiming && !states.sprint)
-		{
-			curZ = Mathf.Lerp (curZ, actualZ, Time.deltaTime * 5);
-			camTrans.localPosition = new Vector3 (currentXOffset, 0f, curZ);
-		}
+            //distance controlled by if we are or are not aiming
+            actualZ = targetZ;
 
-//      update cam position
+            if (!states.sprint && !states.aiming)
+            {
+                curZ = Mathf.Lerp(curZ, actualZ, Time.deltaTime * 5);
+                camTrans.localPosition = new Vector3 (currentXOffset, cameraNormalY, curZ);
+            }
+            else if (states.sprint && !states.aiming)
+            {
+                curZ = Mathf.Lerp(curZ, actualZ, Time.deltaTime * 5);
+                camTrans.localPosition = new Vector3 (currentXOffset, 0f, curZ);
+            }
+            else if (states.aiming && !states.sprint)
+            {
+                curZ = Mathf.Lerp(curZ, actualZ, Time.deltaTime * 5);
+                camTrans.localPosition = new Vector3 (currentXOffset, cameraAimingY, curZ);
+            }
+        }
+        else
+        {
 
+        }
 	}
+
 	void HandleInput()
 	{
 		horizontal = Input.GetAxisRaw ("horizontal");
@@ -136,8 +160,23 @@ public class InputHandler : MonoBehaviour
 		fire = Input.GetAxis ("Fire");
 		aim = Input.GetAxisRaw ("Aim");
 		sprint = Input.GetAxisRaw ("Sprint");
-	}
-	void UpdateStates()
+
+        if (Input.GetButtonDown("Primary"))
+        {
+            FreeCameraLook.Instance.state = FreeCameraLook.CameraState.MultiTarget;
+            AssualtRifle.SetActive(false);
+        }
+        if (Input.GetButtonDown("Secondary"))
+        {
+            FreeCameraLook.Instance.state = FreeCameraLook.CameraState.ThirdPerson;
+            AssualtRifle.SetActive(true);
+        }
+        if (Input.GetButtonDown("Tertiary"))
+        {
+
+        }
+    }
+    void UpdateStates()
 	{
 		if (states.onGround) 
 		{
@@ -165,39 +204,41 @@ public class InputHandler : MonoBehaviour
 			{
 				states.aiming = false;
 			}
-
 		} 
 		else 
 		{
 			states.aiming = false;
 			states.sprint = false;
 		}
+
 		states.canRun = !states.aiming;
 
 		states.horizontal = horizontal;
 		states.vertical = vertical;
 
-        #region Rotates Cube around barrel of the gun for tracer bullets commented out
-        //if (fire > 0)
-        //{
-        //    bulletSpawnPoint.rotation *= Quaternion.Euler(0f, 0f, 15 * 20f);
-        //}
-        #endregion
-
         if (!states.aiming && !states.sprint && !states.reloading)
 		{
-			targetZ = cameraNormalZ; //update target z position of cam
+            //update target z position of cam
+            targetZ = cameraNormalZ; 
 			targetFov = normalFov;
 
 			if (fire > 0.5 && !states.reloading) 
 			{
 				states.shoot = true;
-			} 
-			else 
+                if (gunSoundSource != null)
+                {
+                    gunSoundSource.Play();
+                }
+            }
+            else 
 			{
 				states.shoot = false;
-			}
-		}
+                if (gunSoundSource != null)
+                {
+                    gunSoundSource.Stop();
+                }
+            }
+        }
 		else if (states.aiming && !states.sprint && !states.reloading) 
 		{
 			targetZ = cameraAimingZ; //update target z position of cam
@@ -206,12 +247,20 @@ public class InputHandler : MonoBehaviour
 			if (fire > 0.5 && !states.reloading) 
 			{
 				states.shoot = true;
-			} 
-			else 
+                if (gunSoundSource != null)
+                {
+                    gunSoundSource.Play();
+                }
+            }
+            else 
 			{
 				states.shoot = false;
-			}
-		}
+                if (gunSoundSource != null)
+                {
+                    gunSoundSource.Stop();
+                }
+            }
+        }
 		else if(!states.aiming && states.sprint && !states.reloading)
 		{			
 			if(horizontal > 0 || vertical > 0)
@@ -228,7 +277,11 @@ public class InputHandler : MonoBehaviour
 		else 
 		{
 			states.shoot = false;
-			targetZ = cameraNormalZ;
+            if (gunSoundSource != null)
+            {
+                gunSoundSource.Stop();
+            }
+            targetZ = cameraNormalZ;
 			targetFov = normalFov;
 		}
 	}
@@ -237,7 +290,6 @@ public class InputHandler : MonoBehaviour
 		if(states.shoot && states.handleShooting.curBullets > 0)
 		{
 			targetShake = shakeRecoil;
-//			camProperties.WiggleCrosshairAndCamera(0.2f);
 			targetFov += 5;
 		}
 		else
@@ -265,14 +317,15 @@ public class InputHandler : MonoBehaviour
 		curFov = Mathf.Lerp(curFov, targetFov, Time.deltaTime * 5);
 		Camera.main.fieldOfView = curFov;
 	}
-	void CameraCollision(LayerMask layerMask)
+
+    void CameraCollision(LayerMask layerMask)
 	{
 		Vector3 origin = camPivot.TransformPoint (Vector3.zero);
 		Vector3 direction = camTrans.TransformPoint (Vector3.zero) - camPivot.TransformPoint(Vector3.zero);
 		RaycastHit hit;
 
-		//distance controlled by if we are or are not aiming
-		actualZ = targetZ;
+		// distance controlled by if we are or are not aiming
+		// actualZ = targetZ;
 
 		if(Physics.Raycast(origin, direction,out hit, Mathf.Abs(targetZ), layerMask))
 		{

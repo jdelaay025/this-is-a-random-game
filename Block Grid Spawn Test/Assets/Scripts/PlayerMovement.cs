@@ -82,6 +82,7 @@ public class PlayerMovement : MonoBehaviour
 		{
 			return;
 		}
+
 		lookPosition = states.lookPosition;
 		lookDirection = lookPosition - transform.position;
 
@@ -90,8 +91,19 @@ public class PlayerMovement : MonoBehaviour
 
 		bool onGround = states.onGround;
 
-		Vector3 v = ih.camTrans.forward * vertical;
-		Vector3 h = ih.camTrans.right * horizontal;
+        Vector3 v = ih.camTrans.forward * vertical;
+        Vector3 h = ih.camTrans.right * horizontal;
+
+        if (FreeCameraLook.Instance.state == FreeCameraLook.CameraState.MultiTarget)
+        {
+            v = transform.forward * vertical;
+            h = transform.right * horizontal;
+        }
+        else
+        {
+            v = ih.camTrans.forward * vertical;
+            h = ih.camTrans.right * horizontal;
+        }
 
 		v.y = 0;
 		h.y = 0;
@@ -107,7 +119,6 @@ public class PlayerMovement : MonoBehaviour
 		{
 			rb.drag = 0;
 		}
-
 	}
 	void OnEnable()
 	{
@@ -123,45 +134,45 @@ public class PlayerMovement : MonoBehaviour
 	}
 	void HandleRotation(Vector3 h, Vector3 v, bool onGround)
 	{
-		if (states.aiming) 
-		{
-			lookDirection.y = 0;
+        if (FreeCameraLook.Instance.state != FreeCameraLook.CameraState.FreeRun)
+        {
+            lookDirection.y = 0;
 
-			Quaternion targetRotation = Quaternion.LookRotation (lookDirection);
-			transform.rotation = Quaternion.Slerp (rb.rotation, targetRotation, Time.deltaTime * rotateSpeed);
-		} 
-		else 
-		{
-			storeDirection = transform.position + h + v;
+            Quaternion targetRotation = Quaternion.LookRotation(lookDirection);
+            transform.rotation = Quaternion.Slerp(rb.rotation, targetRotation, Time.deltaTime * rotateSpeed);
+        }
+        else
+        {
+            storeDirection = transform.position + h + v;
 
-			Vector3 dir = storeDirection - transform.position;
-			dir.y = 0;
+            Vector3 dir = storeDirection - transform.position;
+            dir.y = 0;
 
-			if (horizontal != 0f || vertical != 0) 
-			{
-				float angl = Vector3.Angle (transform.forward, dir);
+            if (horizontal != 0f || vertical != 0)
+            {
+                float angl = Vector3.Angle(transform.forward, dir);
 
-				if (angl != 0) 
-				{
-					float angle = Quaternion.Angle (transform.rotation, Quaternion.LookRotation (dir));
-					if (angle != 0) 
-					{
-						transform.rotation = Quaternion.Slerp (transform.rotation, Quaternion.LookRotation (dir), turnSpeed * Time.deltaTime);
-					}
-					else if (angle == 0)
-					{
-						transform.rotation = Quaternion.LookRotation (dir); 
-					}
-				}
-			}
-			else if(horizontal == 0f || vertical == 0)
-			{
-				lookDirection.y = 0;
-				Quaternion targetRotation = Quaternion.LookRotation (lookDirection);
-				transform.rotation = Quaternion.Slerp (rb.rotation, targetRotation, Time.deltaTime * rotateSpeed);
-			}
-		}
-	}
+                if (angl != 0)
+                {
+                    float angle = Quaternion.Angle(transform.rotation, Quaternion.LookRotation(dir));
+                    if (angle != 0)
+                    {
+                        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(dir), turnSpeed * Time.deltaTime);
+                    }
+                    else if (angle == 0)
+                    {
+                        transform.rotation = Quaternion.LookRotation(dir);
+                    }
+                }
+            }
+            else if (horizontal == 0f || vertical == 0)
+            {
+                lookDirection.y = 0;
+                Quaternion targetRotation = Quaternion.LookRotation(lookDirection);
+                transform.rotation = Quaternion.Slerp(rb.rotation, targetRotation, Time.deltaTime * rotateSpeed);
+            }
+        }
+    }
 	float speed()
 	{
 		float speed = 0f;

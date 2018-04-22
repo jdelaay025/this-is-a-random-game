@@ -297,7 +297,7 @@ MonoBehaviour:
   growthAmount: 1.0125
   playerOMEGALUL: {fileID: 2005676745}
   enemyOMEGALUL: {fileID: 700374586}
-  difficultyLevel: 3
+  difficultyLevel: 5
   rateOfGrowth: 0
   timesUp: 0
   timeCap: 15

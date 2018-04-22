@@ -32,6 +32,7 @@ TagManager:
   - Head
   - Walls
   - Ninja Point
+  - Fight Target
   layers:
   - Default
   - TransparentFX

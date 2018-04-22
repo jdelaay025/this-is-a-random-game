@@ -3,7 +3,6 @@ using System.Collections;
 
 public class StateManager : MonoBehaviour 
 {
-
     #region Global Variable Declaration
 
     [Header("Different States")]

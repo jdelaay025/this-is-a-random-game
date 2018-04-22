@@ -1946,7 +1946,7 @@ MonoBehaviour:
   startChecking: 0
   tickPerSecond: 75
   poorTargets: []
-  poorTargetsCap: 50
+  poorTargetsCap: 15
   secondaryCam: {fileID: 607065349}
   findTargetsCap: 15
   seenForLogEnough: 3
