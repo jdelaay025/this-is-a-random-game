@@ -84,5 +84,13 @@ public class HandleAnimations : MonoBehaviour
 			anim.SetTrigger ("Reload");
 		}
 	}
+    public void Punch()
+    {
+        if(!states.attacking)
+        {
+            states.attacking = true;
+            anim.SetTrigger("Attack");
+        }
+    }
 
 }

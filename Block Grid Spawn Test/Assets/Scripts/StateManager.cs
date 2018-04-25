@@ -14,6 +14,7 @@ public class StateManager : MonoBehaviour
 	public bool onGround;
 	public bool jumping;
 	public bool notFacing;
+    public bool attacking;
 
 	[Header("Positional Data")]
 	public float horizontal;
@@ -37,6 +38,10 @@ public class StateManager : MonoBehaviour
 	public float initalRimPower = 0f;
 	Renderer rend;
 
+    [SerializeField]
+    float nextAttackCap = 3f;
+    float nextAttack = 0f;
+
     #endregion
 
     void Start () 
@@ -51,6 +56,8 @@ public class StateManager : MonoBehaviour
 			initalColor = rend.material.GetColor ("_RimColor");
 			initalRimPower = rend.material.GetFloat ("_RimPower");
 		}
+
+        attacking = false;
 	}
 	void Update()
 	{
@@ -77,6 +84,12 @@ public class StateManager : MonoBehaviour
 				rend.material.SetFloat ("_RimPower", initalRimPower);
 			}
 		}
+
+        if(Time.time > nextAttack)
+        {
+            attacking = false;
+            nextAttack = Time.time + nextAttackCap;
+        }
 	}
 	void FixedUpdate () 
 	{
@@ -96,5 +109,13 @@ public class StateManager : MonoBehaviour
 		}
 		return retVal;
 	}
+    public void Jab()
+    {
+
+    }
+    public void Cross()
+    {
+
+    }
 
 }

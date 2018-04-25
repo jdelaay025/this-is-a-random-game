@@ -37,8 +37,9 @@ public class IKHandler : MonoBehaviour
         aimHelper = new GameObject("Aim Helper").transform;
         anim = GetComponent<Animator>();
         states = GetComponent<StateManager>();
-    }
 
+        targetWeight = 0;
+    }
     void Update()
     {
         if (states.shoot)
@@ -50,57 +51,54 @@ public class IKHandler : MonoBehaviour
             states.notFacing = false;
         }
     }
-
     void FixedUpdate()
     {
-        if (rightShoulder == null)
-        {
-            rightShoulder = anim.GetBoneTransform(HumanBodyBones.RightShoulder);
-        }
-        else
-        {
-            weaponHolder.position = rightShoulder.position;
-        }
-
-        if (states.aiming && !states.reloading)
-        {
-            Vector3 directionTowardsTarget = aimHelper.position - transform.position;
-            float angle = Vector3.Angle(transform.forward, directionTowardsTarget);
-
-            targetWeight = 1;
-            notFacing = false;
-        }
-        else if (!states.aiming && !states.reloading && states.shoot)
-        {
-            Vector3 directionTowardsTarget = aimHelper.position - transform.position;
-            float angle = Vector3.Angle(transform.forward, directionTowardsTarget);
-
-            //if(angle < 90)
-            //{
-            targetWeight = 1;
-            notFacing = false;
-            //}
-            //else
-            //{
-            //	targetWeight = 0;
-            //	notFacing = true;
-            //}
-        }
-        else
+        if (FreeCameraLook.Instance.state == FreeCameraLook.CameraState.MultiTarget)
         {
             targetWeight = 0;
         }
+        else
+        {
+            if (rightShoulder == null)
+            {
+                rightShoulder = anim.GetBoneTransform(HumanBodyBones.RightShoulder);
+            }
+            else
+            {
+                weaponHolder.position = rightShoulder.position;
+            }
 
-        float multiplier = (states.aiming) ? 5 : 30;
+            if (states.aiming && !states.reloading)
+            {
+                Vector3 directionTowardsTarget = aimHelper.position - transform.position;
+                float angle = Vector3.Angle(transform.forward, directionTowardsTarget);
 
-        lookWeight = Mathf.Lerp(lookWeight, targetWeight, Time.deltaTime * multiplier);
+                targetWeight = 1;
+                notFacing = false;
+            }
+            else if (!states.aiming && !states.reloading && states.shoot)
+            {
+                Vector3 directionTowardsTarget = aimHelper.position - transform.position;
+                float angle = Vector3.Angle(transform.forward, directionTowardsTarget);
 
-        rightHandIKWeight = lookWeight;
+                targetWeight = 1;
+                notFacing = false;
+            }
+            else
+            {
+                targetWeight = 0;
+            }
 
-        leftHandIKWeight = 1 - anim.GetFloat("LeftHandIKWeightOverride");
+            float multiplier = (states.aiming) ? 5 : 30;
 
-        HandleShoulderRotation();
+            lookWeight = Mathf.Lerp(lookWeight, targetWeight, Time.deltaTime * multiplier);
 
+            rightHandIKWeight = lookWeight;
+
+            leftHandIKWeight = 1 - anim.GetFloat("LeftHandIKWeightOverride");
+
+            HandleShoulderRotation();
+        }
     }
 
     void HandleShoulderRotation()
@@ -109,30 +107,37 @@ public class IKHandler : MonoBehaviour
         weaponHolder.LookAt(aimHelper.position);
         rightHandIkTarget.parent.transform.LookAt(aimHelper.position);
     }
-
     void OnAnimatorIK()
     {
-        anim.SetLookAtWeight(lookWeight, bodyWeight, headWeight, headWeight, clampWeight);
-
-        Vector3 filterDirection = states.lookPosition;
-        //filterDirection.y = offsetY; //if needed
-        anim.SetLookAtPosition((overrideLookTarget != null) ? overrideLookTarget.position : filterDirection);
-
-        if (leftHandIKTarget != null)
+        if (FreeCameraLook.Instance.state == FreeCameraLook.CameraState.MultiTarget)
         {
-            anim.SetIKPositionWeight(AvatarIKGoal.LeftHand, leftHandIKWeight);
-            anim.SetIKPosition(AvatarIKGoal.LeftHand, leftHandIKTarget.position);
-            anim.SetIKRotationWeight(AvatarIKGoal.LeftHand, leftHandIKWeight);
-            anim.SetIKRotation(AvatarIKGoal.LeftHand, leftHandIKTarget.rotation);
+
         }
-
-        if (rightHandIkTarget != null)
+        else
         {
-            anim.SetIKPositionWeight(AvatarIKGoal.RightHand, rightHandIKWeight);
-            anim.SetIKPosition(AvatarIKGoal.RightHand, rightHandIkTarget.position);
-            anim.SetIKRotationWeight(AvatarIKGoal.RightHand, rightHandIKWeight);
-            anim.SetIKRotation(AvatarIKGoal.RightHand, rightHandIkTarget.rotation);
+            anim.SetLookAtWeight(lookWeight, bodyWeight, headWeight, headWeight, clampWeight);
+
+            Vector3 filterDirection = states.lookPosition;
+            //filterDirection.y = offsetY; //if needed
+            anim.SetLookAtPosition((overrideLookTarget != null) ? overrideLookTarget.position : filterDirection);
+
+            if (leftHandIKTarget != null)
+            {
+                anim.SetIKPositionWeight(AvatarIKGoal.LeftHand, leftHandIKWeight);
+                anim.SetIKPosition(AvatarIKGoal.LeftHand, leftHandIKTarget.position);
+                anim.SetIKRotationWeight(AvatarIKGoal.LeftHand, leftHandIKWeight);
+                anim.SetIKRotation(AvatarIKGoal.LeftHand, leftHandIKTarget.rotation);
+            }
+
+            if (rightHandIkTarget != null)
+            {
+                anim.SetIKPositionWeight(AvatarIKGoal.RightHand, rightHandIKWeight);
+                anim.SetIKPosition(AvatarIKGoal.RightHand, rightHandIkTarget.position);
+                anim.SetIKRotationWeight(AvatarIKGoal.RightHand, rightHandIKWeight);
+                anim.SetIKRotation(AvatarIKGoal.RightHand, rightHandIkTarget.rotation);
+            }
         }
     }
+
 }
 

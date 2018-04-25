@@ -127,7 +127,7 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleMovement(Vector3 h, Vector3 v, bool onGround)
 	{
-		if (onGround) 
+        if (onGround && states.attacking == false) 
 		{
 			rb.AddForce ((v + h).normalized * speed());
 		}

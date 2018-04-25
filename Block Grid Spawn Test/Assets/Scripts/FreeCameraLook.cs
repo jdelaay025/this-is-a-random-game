@@ -35,7 +35,22 @@ public class FreeCameraLook : Pivot
     public bool controllerInverted = false;
 
     public bool controllingWithMouse = false;
-    public Transform focusTarget;
+    public int whichTarget = 0;
+    public Transform focusTarget
+    {
+        get {return focustarget; }
+        set
+        {
+            focustarget = value;
+            if (targets.Count > 1)
+            {
+                targets.RemoveAt(1);
+                targets.Add(GameMasterObject.enemies[whichTarget]);
+            }
+        ; }
+    }
+    private Transform focustarget;
+
     public Transform pivotTarget;
     public List<Transform> targets;
 
@@ -60,6 +75,8 @@ public class FreeCameraLook : Pivot
     protected override void Awake()
     {
         base.Awake();
+
+        playing = false;
 
         if(Instance == null)
         {
@@ -91,7 +108,7 @@ public class FreeCameraLook : Pivot
             playerStates = player.GetComponent<StateManager>();
         }
 
-        // state = CameraState.MultiTarget;
+        state = CameraState.MultiTarget;
 
         playing = true;
     }
@@ -187,15 +204,17 @@ public class FreeCameraLook : Pivot
         {
             #region MultiTarget Functionality
 
-            playerStates.lookPosition = focusTarget.position;
-            pivot.position = GetCenterPoint();
+            if (playing == true)
+            {
+                playerStates.lookPosition = focustarget.position;
+                pivot.position = GetCenterPoint();
 
-            Vector3 dir = pivot.position - camHolder.position;
+                Vector3 dir = pivot.position - camHolder.position;
 
-            Quaternion lookRotation = Quaternion.LookRotation(dir);
+                Quaternion lookRotation = Quaternion.LookRotation(dir);
 
-            camHolder.rotation = lookRotation;
-
+                camHolder.rotation = lookRotation;
+            }
             #endregion
         }
         if (state == CameraState.FreeRun)
@@ -222,50 +241,6 @@ public class FreeCameraLook : Pivot
         }
 
         return bounds.center;
-    }
-
-    public void SetCameraPosition()
-    {
-        if (state == CameraState.ThirdPerson)
-        {
-            #region Third Person Functionality
-
-            camHolder.rotation = Quaternion.Euler(0f,0f,0f);
-
-            #endregion
-        }
-        if (state == CameraState.FirstPerson)
-        {
-            #region First Person Functionality
-
-
-
-            #endregion
-        }
-        if (state == CameraState.MultiTarget)
-        {
-            #region MultiTarget Functionality
-
-            playerStates.lookPosition = focusTarget.position;
-            pivot.position = GetCenterPoint();
-
-            Vector3 dir = pivot.position - camHolder.position;
-
-            Quaternion lookRotation = Quaternion.LookRotation(dir);
-
-            camHolder.rotation = lookRotation;
-
-            #endregion
-        }
-        if (state == CameraState.FreeRun)
-        {
-            #region FreeRun Functionality
-
-
-
-            #endregion
-        }
-
     }
 
 }

@@ -26,7 +26,7 @@ public class Pivot : FollowTarget
 
     protected virtual void Update () 
 	{
-		if (!Application.isPlaying) 
+		if (Application.isPlaying) 
 		{
 			if(target != null)
 			{
@@ -47,4 +47,5 @@ public class Pivot : FollowTarget
 	{
 
 	}
+
 }
